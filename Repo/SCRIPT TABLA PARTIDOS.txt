@@ -1,0 +1,13 @@
+db.Partidos.insert({N°_Partido: NumberInt("<num>"), Partido:"Amplitud"});
+db.Partidos.insert({N°_Partido: NumberInt("<num>"), Partido:"PDC"});
+db.Partidos.insert({N°_Partido: NumberInt("<num>"), Partido:"Evopoli"});
+db.Partidos.insert({N°_Partido: NumberInt("<num>"), Partido:"IZQ CIU"});
+db.Partidos.insert({N°_Partido: NumberInt("<num>"), Partido:"IND"});
+db.Partidos.insert({N°_Partido: NumberInt("<num>"), Partido:"PC"});
+db.Partidos.insert({N°_Partido: NumberInt("<num>"), Partido:"PLC"});
+db.Partidos.insert({N°_Partido: NumberInt("<num>"), Partido:"PPD"});
+db.Partidos.insert({N°_Partido: NumberInt("<num>"), Partido:"PRSD"});
+db.Partidos.insert({N°_Partido: NumberInt("<num>"), Partido:"PS"});
+db.Partidos.insert({N°_Partido: NumberInt("<num>"), Partido:"RD"});
+db.Partidos.insert({N°_Partido: NumberInt("<num>"), Partido:"RN"});
+db.Partidos.insert({N°_Partido: NumberInt("<num>"), Partido:"UDI"});
