@@ -3,7 +3,7 @@
 
 Integrantes:<br />
 
-- Fernando Aedo (Jefe Grupo Front end)<br />
+- Fernando Aedo (Jefe Grupo Front-end / Bootstrap-Mockup)<br />
 - Fernando Yañez (Javascript)<br />
 - Juan Cid (Css)<br />
 - Luis Camilo Ferreira<br />
