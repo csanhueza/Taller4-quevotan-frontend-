@@ -5,6 +5,6 @@ Integrantes:<br />
 
 - Fernando Aedo (Jefe Grupo Front end)<br />
 - Fernando Yañez (Javascript)<br />
-- Juan Cid<br />
+- Juan Cid (Css)<br />
 - Luis Camilo Ferreira<br />
-- Marcelo Castillo (css)<br />
+- Marcelo Castillo (Css)<br />
