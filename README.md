@@ -1,10 +1,10 @@
 # Taller4-quevotan-frontend-
 
 
-Integrantes:
+Integrantes:<br />
 
--Fernando Aedo (Jefe Grupo Front end)
--Fernando Yañez
--Juan Cid
--Luis Camilo Ferreira
--Marcelo Castillo (css)
+-Fernando Aedo (Jefe Grupo Front end)<br />
+-Fernando Yañez<br />
+-Juan Cid<br />
+-Luis Camilo Ferreira<br />
+-Marcelo Castillo (css)<br />
