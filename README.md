@@ -9,6 +9,7 @@ Integrantes:<br />
 - Luis Camilo Ferreira (Javascript)<br />
 - Marcelo Castillo (Css)<br />
 
+# Sobre Plataforma ¿Qué votan?<br>
 
 Es una plataforma que permite visualizar claramente el espectro político del Congreso Nacional de la República de Chile en el período legislativo 2014-2018. Esperamos que "¿Qué Votan?" pueda ser usada por la población chilena en la toma de decisiones durante la elección parlamentaria de Noviembre de 2017. Nuestra intención es lograr que "¿Qué Votan?" pueda perpetuarse en el tiempo, sirviendo como referente en la discusión política parlamentaria de nuestro país.<br>
 
