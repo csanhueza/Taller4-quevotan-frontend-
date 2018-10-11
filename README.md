@@ -3,8 +3,8 @@
 
 Integrantes:
 
-Fernando Aedo (Jefe Grupo Front end)
-Fernando Yañez
-Juan Cid
-Luis Camilo Ferreira
-Marcelo Castillo (css)
+-Fernando Aedo (Jefe Grupo Front end)
+-Fernando Yañez
+-Juan Cid
+-Luis Camilo Ferreira
+-Marcelo Castillo (css)
