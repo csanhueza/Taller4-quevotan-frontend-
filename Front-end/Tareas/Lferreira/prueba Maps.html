@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prueba de Leaflet</title>
+    <link rel="stylesheet" href="Css/leaflet.css" />
+    <script src="js/leaflet.js"></script>
+</head>
+<body>
+<div id="mapid" style="width: 600px; height: 400px;"></div>
+<script type="text/javascript">
+var mymap = L.map('mapid').setView([-38.736832, -72.600871], 13);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(mymap);
+L.marker([-38.736832, -72.600871]).addTo(mymap).bindPopup('Marcador xd').openPopup();
+</script>
+
+
+</body>
+</html>
