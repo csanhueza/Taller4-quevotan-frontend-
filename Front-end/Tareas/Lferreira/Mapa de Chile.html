@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+	<head>
+		<title>Mapa de chile</title>
+		<meta name="description" content="Mapa de Chile" />
+		<!-- amCharts javascript sources -->
+		<script type="text/javascript" src="js/ammap.js"></script>
+		<script type="text/javascript" src="http://www.amcharts.com/lib/maps/js/chileHigh.js"></script>
+		<script type="text/javascript" src="js/chileLow.js"></script>
+		<!-- amCharts javascript code -->
+		<script type="text/javascript">
+//Funcion que crea el mapa en el div con id "Map"
+// Libreria que contiene todos los js de los mapas https://www.amcharts.com/lib/3/
+			AmCharts.makeChart("map",{
+					"type": "map",
+					"addClassNames": false,
+					"fontSize": 20,					
+					"color": "#FFFFFF",
+					"projection": "miller",
+					"backgroundAlpha": 1,
+					"colorSteps":10,
+					"backgroundColor": "rgba(255,255,255,1)", // Color fondo 
+					"dataProvider": {
+						"map": "chileHigh",
+						"areas":[
+							{"id":"CL-AI",
+							  "value":-1 //Valor que define el color del mapa , mayor mas oscuro / menor mas claro 
+							},
+							{"id":"CL-MA",
+							 "value":0
+							},
+							{"id":"CL-TA",
+							 "value":1
+							},
+							{"id":"CL-AN",
+							 "value":2
+							},
+							{"id":"CL-AT",
+							 "value":4
+							},
+							{"id":"CL-CO",
+							 "value":5
+							},
+							{"id":"CL-RM",
+							 "value":6
+							},
+							{"id":"CL-VS",
+							 "value":8
+							},
+							{"id":"CL-AR",
+							 "value":9
+							},
+							{"id":"CL-BI",
+							 "value":10
+							},
+							{"id":"CL-LI",
+							 "value":1
+							},
+							{"id":"CL-LL",
+							 "value":2
+							},
+							{"id":"CL-ML"},
+							{"id":"CL-AP"},
+							{"id":"CL-LR"}
+						],
+						"getAreasFromMap": true,
+					},
+					  "valueLegend": {
+						    "right": 10,
+						    "minValue": "Menor",
+						    "maxValue": "Mayor"
+				    }
+				});
+		</script>
+	</head>
+	<body style="margin: 0;background-color: rgba(80,80,80,1);">
+		<div id="map" style="width: 50%; height: 500px;"></div>
+	</body>
+</html>
