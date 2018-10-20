@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prueba de Json</title>
+	<script type="text/javascript" src="js/jquery.js"></script> 
+</head>
+<body>
+	<p id='xd'></p>
+	<script type="text/javascript">
+	var data ={"arrayColores":
+    [
+        {
+            "nombreColor":"rojo",
+            "valorHexadec":"#f00"
+        },
+        {
+            "nombreColor":"verde",
+            "valorHexadec":"#0f0"
+        },
+        {
+            "nombreColor":"azul",
+            "valorHexadec":"#00f"
+        },
+        {
+            "nombreColor":"cyan",
+            "valorHexadec":"#0ff"
+        },
+        {
+            "nombreColor":"magenta",
+            "valorHexadec":"#f0f"
+        },
+        {
+            "nombreColor":"amarillo",
+            "valorHexadec":"#ff0"
+        },
+        {
+            "nombreColor":"negro",
+            "valorHexadec":"#000"
+        }
+    ]
+};
+	$("#xd").text(data.arrayColores[0].nombreColor);
+		
+
+		
+	</script>
+</body>
+</html>
