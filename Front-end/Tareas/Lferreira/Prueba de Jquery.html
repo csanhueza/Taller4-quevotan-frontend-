@@ -3,12 +3,29 @@
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<title>Prueba de Libreria 2 </title>
+	<style type="text/css">
+		.cont{
+			border: 2px solid red;
+			border-radius: 8px;
+			width: 10%;
+			position: absolute;
+		}
+		img{
+			padding-left: 10%;
+			width: 80%;
+			height: 10%;
+
+		}
+
+	</style>
 </head>
 <body>
 <button id="b1">Ocultar/Mostrar</button>
 <button id="b2">Movimiento</button>
+
 <script type="text/javascript">
 	var contador = 0 ;
+	var codigo ;
 	$(document).ready(function() {
 		$("#b1").click(function(){
 			contador++;
@@ -26,10 +43,23 @@
 				contador = 0;
 			}
 		});
+		$("#Muestra").mouseenter(function() {
+			$("#datos").slideDown(function(){
+				codigo="<div id='datos' class='cont'> \
+						<img src='img/img1.jpg' /> \
+						<p> Fulano : bla bla bla </p> \
+						<p> edad : xxx </p> \
+						</div> \
+						"
+				$(this).html(codigo);
+			})	
+		});
     });
 </script>
 	<div>
-	<p id="A"> Animacion con Jquery </p>
+	<p id="A"> Animacion con Jquery </p><br>
+	<p id="Muestra"> Nombre Personaje </p>
+	<div id="datos"></div>
 	</div>
 </body>
 </html>
