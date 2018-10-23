@@ -1,0 +1,25 @@
+{
+    "votaciones": [
+      {
+        "id": 1,
+        "cordenada x": -3,
+        "cordenada y": 5,
+        "posicion politica": "izquierda",
+	"tipo de voto": "educacion"
+      },
+      {
+        "id": 2,
+        "cordenada x": 65,
+        "cordenada y": 12,
+        "posicion politica": "derecha",
+	"tipo de voto": "salud"
+      },
+      {
+        "id": 3,
+        "cordenada x": 8,
+        "cordenada y": 24,
+        "posicion politica": "derecha",
+	"tipo de voto": "economia"
+      }
+    ]
+}
