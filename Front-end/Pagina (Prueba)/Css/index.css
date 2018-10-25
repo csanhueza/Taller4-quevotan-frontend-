@@ -1,8 +1,5 @@
 
 p,h1,h2,h3,h4,h5,h6{ margin: 0; }
-
-
-
 body{
 		margin: 0;
 		width: 100%;
@@ -11,7 +8,7 @@ body{
 	}
 header{
 		margin: auto;
-		height: 15%;
+		height: 30%;
 		width: 100%;
 		background-color: #FE2E2E;
 	  }
@@ -23,7 +20,7 @@ nav{
 	}
 section{
 			margin: auto;
-			height: 70%;
+			height: 60%;
 			width : 60%;
 			background-color: #00FFFF;
 
@@ -34,3 +31,6 @@ footer{
 		background-color: #64FE2E;
 
 	}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+img {vertical-align: middle;}
