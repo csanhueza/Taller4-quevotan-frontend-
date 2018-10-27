@@ -3,16 +3,49 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="css/Desliza.css">
+	<link rel="stylesheet" type="text/css" href="css/font.css">
 	<script type="text/javascript" src="js/Deslizar.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
 	<title> Inicio</title>
 </head>
 <body>
-	<!--- Menu de Navegacion de la Pagina --> 
-	<nav> <br><p> Navegador </p></nav>
+<div class="container">
+	<!--- Navegador --->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">¿Que Votan?</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Contacto</a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"aria-expande="false">
+	          Lista
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Action</a>
+	          <a class="dropdown-item" href="#">Another action</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">Something else here</a>
+	        </div>
+	      </li>
+	    </ul>
+	  </div>
+	  <hr>
+	</nav>
 	<!--- Banner y/o logo Pagina , Parte superior de Pagina -->
-	<header>
+	<div class="Header cols-sm-auto">
 		<div class="Contenedor">
 			<div class="imagenes fade">
   				<div class="numbertext">1 / 3</div>
@@ -33,11 +66,16 @@
 		<script type="text/javascript">
 			var slideIndex = 0;
 			showSlides();
-		</script>
-	</header>
-	<!-- Contenido De Pagina --> 
-	<section><p> Contenido de Pagina</p></section>
-	<!-- Final de pagina --->
-	<footer><p>Final</p></footer>
+		</script>		
+	</div>
+	<!--- Contenido de Pagina -->
+	<div class="Section col-sm-auto">
+		<h1> Seccion </h1>
+	</div>
+	<!-- Footer -->
+	<div class="Footer cols-sm-auto">
+		<p> Footer </p>
+	</div>
+ </div>
 </body>
 </html>
