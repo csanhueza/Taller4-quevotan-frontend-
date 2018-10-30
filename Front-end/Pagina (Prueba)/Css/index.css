@@ -39,5 +39,12 @@ footer{
 
 	}
 #activo{
-	background-color: red;
+	   background-color: #F7F9F9;
+}
+#map {
+    height: 90%;
+    width: 30%;
+    margin: auto;
+    align-content: center;
+    
 }
