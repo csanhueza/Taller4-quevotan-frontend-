@@ -30,6 +30,7 @@ section{
 			height: 100%;
 			width : 85%;
 			background-color: #F5F5F5;
+                        
 
 		}
 footer{
@@ -42,9 +43,10 @@ footer{
 	   background-color: #F7F9F9;
 }
 #map {
-    height: 90%;
-    width: 30%;
-    margin: auto;
-    align-content: center;
+    height: 100%;
+    width: 25%;
+    position:absolute;
+    margin: 20%;
+   
     
 }

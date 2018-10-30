@@ -1,10 +1,10 @@
 // See post: http://asmaloney.com/2014/01/code/creating-an-interactive-map-with-leaflet-and-openstreetmap/
 
 var map = L.map( 'map', {
-    center: [-40.0, -70.0],
-    minZoom: 5,
+    center: [-40.0, -72.0],
+    minZoom: 2,
     
-    zoom: 5
+    zoom: 4
 });
 
 L.tileLayer( 'http://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
