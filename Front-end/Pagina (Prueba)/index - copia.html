@@ -9,12 +9,14 @@
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="css/Desliza.css">
 	<link rel="stylesheet" type="text/css" href="css/font.css">
+  <link rel="stylesheet" type="text/css" href="css/leaflet.css">
   <!-- importacion Js -->
   <script type="text/javascript" src="js/Deslizar.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-	<title> Inicio</title>
+  <script type="text/javascript" src="js/leaflet.js"></script>
+	<title> Contacto</title>
 </head>
 <body >
 	<!--- Navegador/menu --->
@@ -82,10 +84,45 @@
 </div>
 	</header>
 	<!--- Contenido de Pagina -->
-    <section >
-		<div id="map">    
-        <script type='text/javascript' src='js/leaf-demo.js'></script>
+    <section class="cols-sm-auto">
+		<div id="map" class="col-md-12">    
+        <script type='text/javascript' src='js/mapa_leaflet.js'></script>
+    </div>
+    <br>
+    <div class="container">
+      <div class="row" id="formulario">
+        <div class="col-ms-8 col-md-6">
+            <h3> Envianos un mensaje </h3>
+            <br>
+           <form class="form-horizontal" action="/action_page.php">
+              <div class="form-group">
+                  <input type="text" class="form-control" id="text" placeholder="Nombre" name="Nombre">
+              </div>
+              <div class="form-group">     
+                  <input type="email" class="form-control" id="email" placeholder="Correo" name="pwd">
+              </div>
+              <div class="form-group">
+                  <textarea class="form-control" rows="5" placeholder="Comentario" name="mensaje" style="position: static;"></textarea>
+              </div>
+              <br>
+              <div class="form-group">        
+                  <button type="submit" class="btn btn-default">Enviar</button>
+              </div>
+            </form>
         </div>
+        <div class="col-sm-5">
+            <h3> Informacion del Contacto</h3>
+            <br>
+            <address>
+                <span>CAMPUS SAN JUAN PABLO II</span><br>
+                <span><strong>Direc:</strong> Rudecindo Ortega 02950</span><br>
+                <span><strong>Fono:</strong> (45) 2 553978</span><br>
+                <span><strong>Email:</strong><a href="mailto:quevotan@inf.uct.cl"> quevotan@inf.uct.cl</a></span><br>
+                <span><strong>Web:</strong><a href="#"> http://www.inf.uct.cl</a></span>
+            </address>
+        </div>
+    </div>
+  
     </section>
 	<!-- Footer -->
 	<footer class="Footer cols-sm-auto">

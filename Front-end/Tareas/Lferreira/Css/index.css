@@ -42,10 +42,11 @@ footer{
 #activo{
 	   background-color: #F7F9F9;
 }
-#map { 
-    height: 30%; 
-    width: 100%; 
-    margin: auto; 
+#map {
+    height: 100%;
+    width: 25%;
+    position:absolute;
+    margin: 20%;
+   
+    
 }
-
-     
