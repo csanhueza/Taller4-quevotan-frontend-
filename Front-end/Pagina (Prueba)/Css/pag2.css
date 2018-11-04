@@ -43,8 +43,27 @@ footer{
 	   background-color: #F7F9F9;
 }
 #map {
-    height: 100%;
-    width: 25%;
+    height: 980px;
+    width: 20%;
+    margin-left: 8px;
+    margin-top: 8px;
     position:absolute;
-    margin: 20%;   
+    background: #F5F5F5; 
+}
+#graf{
+    width: 810px;
+    height: 300px;
+    margin-left: 24%;
+    margin-top: 8px;
+    position: absolute;
+    background: blue;
+    /*background: #F5F5F5;*/
+}
+#contacto{
+    height: 185px;
+    width: 30%;
+    margin-left: 68%;
+    margin-top: 8px;
+    position:absolute;
+    background: blue;
 }

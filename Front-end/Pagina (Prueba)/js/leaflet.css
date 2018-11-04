@@ -244,8 +244,8 @@
 	}
 
 .leaflet-touch .leaflet-bar a {
-	width: 30px;
-	height: 30px;
+	width: auto;
+	height: auto;
 	line-height: 30px;
 	}
 
