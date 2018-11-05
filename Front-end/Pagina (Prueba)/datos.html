@@ -13,7 +13,7 @@
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/busqueda.js"></script>
-	<title> Inicio</title>
+	<title> Informacion</title>
 </head>
 <body >
 	<!--- Navegador/menu --->
@@ -42,10 +42,11 @@
                                 </div>
                           </li>
                     </ul>
-                     <form class="form-inline my-2 my-lg-0" method="get">
+            <form class="form-inline my-2 my-lg-0">
       					<input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search" id="search">
-      					<button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="get_data()">Buscar</button>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="button" onclick="get_data()" >Buscar</button>
     				</form>
+            
             </div>
 	        <hr>
     </nav>
@@ -81,8 +82,8 @@
 </div>
 	</header>
 	<!--- Contenido de Pagina -->
-    <section  class="row">
-      <div class="col-md-8" id="data"></div>
+    <section >
+      <div id="data"></div>
     </section>
 	<!-- Footer -->
 	<footer class="Footer cols-sm-auto">
