@@ -5,41 +5,18 @@
 	<script type="text/javascript" src="js/jquery.js"></script> 
 </head>
 <body>
-	<p id='xd'></p>
+	<button>Obtener json </button>
 	<script type="text/javascript">
-	var data ={"arrayColores":
-    [
-        {
-            "nombreColor":"rojo",
-            "valorHexadec":"#f00"
-        },
-        {
-            "nombreColor":"verde",
-            "valorHexadec":"#0f0"
-        },
-        {
-            "nombreColor":"azul",
-            "valorHexadec":"#00f"
-        },
-        {
-            "nombreColor":"cyan",
-            "valorHexadec":"#0ff"
-        },
-        {
-            "nombreColor":"magenta",
-            "valorHexadec":"#f0f"
-        },
-        {
-            "nombreColor":"amarillo",
-            "valorHexadec":"#ff0"
-        },
-        {
-            "nombreColor":"negro",
-            "valorHexadec":"#000"
-        }
-    ]
-};
-	$("#xd").text(data.arrayColores[0].nombreColor);
+		$(document).ready(function(){
+			$("button").click(function(){
+				$.getJSON("json/archivo.json",function(data){
+					for(var i =0 ; i < data.arrayColores.length;i++){
+						alert(data.arrayColores[i].nombreColor);
+					}
+				});
+			});
+		});
 	</script>
+	<div></div>
 </body>
 </html>
