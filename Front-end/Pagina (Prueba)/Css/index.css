@@ -2,22 +2,19 @@ p,h1,h2,h3,h4,h5,h6{ margin: 0; }
 body{
 		margin: 0;
 		width: 100%;
-		height: 1000px;
-		background: #546E7A;
+		height: auto;
+        /*background-color: #808B96;*/
 }
 /* Clases */
 nav{
 		margin: 0;
-        padding: 0;
-		background-color: #546E7A;
-		height: 8%;
+        height: 8%;
 		margin-bottom: 0px;
-        position: fixed;
-        z-index: 100;
+        background-color: #FFFFFF;
 	}
 header{
 		margin: auto;
-		background-color: #37474F;
+		background-color: #000000;
 		/*height: 30%;*/
 		width: 100%;
 		margin-right: 0px;
@@ -27,25 +24,23 @@ header{
 
 section{
 			margin: auto;
-			height: 100%;
-			width : 85%;
-			background-color: #F5F5F5;
-                        
-
+			/*height: 100%;*/
+			width : 60%;
+			background-color: #FFFFFF;
 		}
 footer{
-		height: 15%;
+		/*height: 15%;*/
 		width: 100%;
-		background-color: #37474F;
+		background-color:#000000;
 
 	}
-#activo{
-	   background-color: #F7F9F9;
-}
 #map { 
     height: 30%; 
     width: 100%; 
     margin: auto; 
+}
+#texto{
+     text-align: justify;
 }
 
      
