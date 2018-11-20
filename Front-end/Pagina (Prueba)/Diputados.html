@@ -8,12 +8,14 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="css/font.css">
+  <link rel="shortcut icon" href="img/Chile.ico" />
   <!-- importacion Js -->
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/busqueda.js"></script>
-	<title> Informacion</title>
+  <script type="text/javascript" src="js/obtener_xml.js"></script>
+	<title> Diputados</title>
 </head>
 <body >
 	<!--- Navegador/menu --->
@@ -74,12 +76,25 @@
 </div>
   </header>
 	<!--- Contenido de Pagina -->
-    <section >
-      <div id="data"></div>
+    <section class="cols-sm-auto">
+      <div class="container" id="Cargar_diputados"> 
+          <ul class="list-inline" id="lista"></ul> 
+    </div>
+    <br>
     </section>
 	<!-- Footer -->
-	<footer class="Footer cols-sm-auto">
-		<p> Footer </p>
+  <footer class="cols-sm-auto">
+        <div class="container text-white text-uppercase font-weight-bold ">
+            <h3> Informacion del Contacto</h3>
+            <br>
+            <address>
+                <span>CAMPUS SAN JUAN PABLO II</span><br>
+                <span><strong>Direc:</strong> Rudecindo Ortega 02950</span><br>
+                <span><strong>Fono:</strong> (45) 2 553978</span><br>
+                <span><strong>Email:</strong><a href="mailto:quevotan@inf.uct.cl"> quevotan@inf.uct.cl</a></span><br>
+                <span><strong>Web:</strong><a href="#"> http://www.inf.uct.cl</a></span><br>
+            </address>
+        </div>
     </footer>
 </body>
 </html>
