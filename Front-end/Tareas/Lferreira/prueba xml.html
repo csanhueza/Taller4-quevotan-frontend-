@@ -1,37 +1,53 @@
 <!DOCTYPE>
 <html>
     <meta charset="utf-8">
-    <head>
+  <!-- Importacion Css --->
+  <!-- importacion Js -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <style type="text/css">
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: amharic-abegede;
+}
+
+li {
+    float: left;
+    color: white;
+    text-align: center;
+    margin-right: 10%;
+}
+
+
+
+  </style>
+  <head>
         <title> Prueba xml</title>    
     </head>
     <body>
-    <button onclick="loadDoc()"> Mostrar</button>
-    <div id="demo"></div>
-<script>
-function loadDoc() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      myFunction(this);
-    }
-    };
-        xhttp.open("GET", "http://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual", true);
-        xhttp.send();
-    }
-function myFunction(xml) {
-  var i;
-  var xmlDoc = xml.responseXML;
-  var table="<tr><th>Nombre</th><th>Apellido</th></tr>";
-  var x = xmlDoc.getElementsByTagName("Diputado");
-  for (i = 0; i <x.length; i++) { 
-    table += "<tr><td>" +
-    x[i].getElementsByTagName("Nombre")[0].childNodes[0].nodeValue +
-    "</td><td>" +
-    x[i].getElementsByTagName("Apellido")[0].childNodes[0].nodeValue +
-    "</td></tr>";
-  }
-  document.getElementById("demo").innerHTML = table;
-}
+    <div class="container" id="Cargar_diputados"> 
+    	<ul id="lista"></ul>
+    </div>
+<script type="text/javascript">
+	var i=0;
+	$(document).ready(function(){
+		$.get('xml/diputados.xml',function(d){
+			$('body').append("<p> hola mundo</p>");
+
+		$(d).find('DiputadoPeriodo').each(function(){
+			var apellidoP = $(this).find('ApellidoPaterno').text();
+			var apellidM  = $(this).find('ApellidoMaterno').text();
+      var apellidos =apellidoP+" "+apellidM;
+      var menor = 0;
+      for(i = apellidos.length ;i < 25;i++){
+          apellidos += " &nbsp;"; 
+      }
+			var html = "<li class=''><a href='#'>"+apellidos +"</a></li>";
+			$("#lista").append($(html));
+			});
+		});
+	});
 </script>
     </body>
 </html>
