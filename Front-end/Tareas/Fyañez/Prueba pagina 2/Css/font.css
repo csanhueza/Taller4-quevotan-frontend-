@@ -1,0 +1,64 @@
+/*posibles fuentes para el titulo*/
+@font-face{
+    font-family:'JosefinSans';
+    src:url(font/JosefinSans-Regular.ttf);
+    font-style: normal;
+}
+@font-face{
+    font-family:'Merriweather';
+    src:url(font/Merriweather-Regular.ttf);
+    font-style: normal;
+}
+@font-face{
+    font-family:'Pacifico';
+    src:url(font/Pacifico-Regular.ttf);
+    font-style: normal;
+}
+@font-face{
+    font-family:'PlayfairDisplay';
+    src:url(font/PlayfairDisplay-Regular.ttf);
+    font-style: normal;
+}
+@font-face{
+    font-family:'PT_Sans';
+    src:url(font/PT_Sans-Web-Regular.ttf);
+    font-style: normal;
+}
+@font-face{
+    font-family:'Ubuntu';
+    src:url(font/Ubuntu-Regular.ttf);
+    font-style: normal;
+}
+
+
+/*Posibles fuentes para el contenido*/
+@font-face{
+    font-family:'Niramit';
+    src:url(font/Niramit-Regular.ttf);
+    font-style: normal;
+}
+@font-face{
+   font-family:'boo';
+   src:url(font/boo.ttf);
+   font-style: normal;
+}
+@font-face{
+    font-family:'Lato';
+    src:url(font/Lato-Regular.ttf);
+    font-style: normal;
+}
+@font-face{
+    font-family:'Montserrat';
+    src:url(font/Montserrat-Regular.ttf);
+    font-style: normal;
+}
+@font-face{
+    font-family:'OpenSans';
+    src:url(font/OpenSans-Regular.ttf);
+    font-style: normal;
+}
+@font-face{
+    font-family:'Poppins';
+    src:url(font/Poppins-Regular.ttf);
+    font-style: normal;
+}
