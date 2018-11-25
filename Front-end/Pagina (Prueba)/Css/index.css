@@ -13,7 +13,6 @@ nav{
         background-color: #FFFFFF;
 	}
 header{
-		margin: auto;
 		background-color: #000000;
 		height: 30%;
 		width: 100%;
@@ -25,10 +24,23 @@ header{
 section{
 			margin: auto;
 			height: 50%;
-			width : 60%;
+			width : 75%;
 			background-color: #FFFFFF;
+            
 		}
+#wsec{
+    
+        margin: auto;
+        width: 85%;
+}
+blockquote {
+          padding: 3px 10px;
+          border: black 3px solid;
+          border-top-left-radius: 20px;
+          border-bottom-right-radius: 20px;
+        }
 footer{
+        margin-top: 5px;
 		background-color:#000000;
 		height: 12%;
 		width: 100%;
@@ -36,4 +48,14 @@ footer{
 
 #texto{
      text-align: justify;
+}
+table {
+        border-collapse: collapse;
+        border: red 5px solid;
+}
+tr {
+  border: green 5px solid;
+}
+td {
+  border: orange 5px solid;
 }
