@@ -1,0 +1,4124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiputadosPeriodoColeccion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://opendata.camara.cl/camaradiputados/v1">
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1008</Id>
+      <Nombre>Florcita</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Alarcón</ApellidoPaterno>
+      <ApellidoMaterno>Rojas</ApellidoMaterno>
+      <FechaNacimiento>1945-10-15T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1009</Id>
+      <Nombre>Jorge</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Alessandri</ApellidoPaterno>
+      <ApellidoMaterno>Vergara</ApellidoMaterno>
+      <FechaNacimiento>1979-06-08T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>803</Id>
+      <Nombre>René</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Alinco</ApellidoPaterno>
+      <ApellidoMaterno>Bustos</ApellidoMaterno>
+      <FechaNacimiento>1958-06-02T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PPD</Id>
+            <Nombre>Partido Por la Democracia</Nombre>
+            <Alias>PPD</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>IND</Id>
+            <Nombre>Independientes</Nombre>
+            <Alias>IND</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1010</Id>
+      <Nombre>Sebastián</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Álvarez</ApellidoPaterno>
+      <ApellidoMaterno>Ramírez</ApellidoMaterno>
+      <FechaNacimiento>1970-11-13T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>968</Id>
+      <Nombre>Jenny</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Álvarez</ApellidoPaterno>
+      <ApellidoMaterno>Vera</ApellidoMaterno>
+      <FechaNacimiento>1974-03-30T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>923</Id>
+      <Nombre>Pedro Pablo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Alvarez-Salamanca</ApellidoPaterno>
+      <ApellidoMaterno>Ramírez</ApellidoMaterno>
+      <FechaNacimiento>1976-02-18T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1011</Id>
+      <Nombre>Sandra</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Amar</ApellidoPaterno>
+      <ApellidoMaterno>Mancilla</ApellidoMaterno>
+      <FechaNacimiento>1955-11-24T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>810</Id>
+      <Nombre>Gabriel</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Ascencio</ApellidoPaterno>
+      <ApellidoMaterno>Mansilla</ApellidoMaterno>
+      <FechaNacimiento>1953-10-25T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>1994-03-11T00:00:00</FechaInicio>
+          <FechaTermino>1998-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>1998-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2002-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2002-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2006-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>925</Id>
+      <Nombre>Pepe</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Auth</ApellidoPaterno>
+      <ApellidoMaterno>Stewart</ApellidoMaterno>
+      <FechaNacimiento>1957-03-06T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PPD</Id>
+            <Nombre>Partido Por la Democracia</Nombre>
+            <Alias>PPD</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>IND</Id>
+            <Nombre>Independientes</Nombre>
+            <Alias>IND</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>926</Id>
+      <Nombre>Nino</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Baltolu</ApellidoPaterno>
+      <ApellidoMaterno>Rasera</ApellidoMaterno>
+      <FechaNacimiento>1953-09-28T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1012</Id>
+      <Nombre>Boris</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Barrera</ApellidoPaterno>
+      <ApellidoMaterno>Moreno</ApellidoMaterno>
+      <FechaNacimiento>1970-05-03T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>811</Id>
+      <Nombre>Ramón</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Barros</ApellidoPaterno>
+      <ApellidoMaterno>Montero</ApellidoMaterno>
+      <FechaNacimiento>1958-03-05T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2002-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2006-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>IND</Id>
+            <Nombre>Independientes</Nombre>
+            <Alias>IND</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>970</Id>
+      <Nombre>Jaime</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Bellolio</ApellidoPaterno>
+      <ApellidoMaterno>Avaria</ApellidoMaterno>
+      <FechaNacimiento>1980-11-29T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>971</Id>
+      <Nombre>Bernardo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Berger</ApellidoPaterno>
+      <ApellidoMaterno>Fett</ApellidoMaterno>
+      <FechaNacimiento>1946-10-04T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1013</Id>
+      <Nombre>Alejandro</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Bernales</ApellidoPaterno>
+      <ApellidoMaterno>Maldonado</ApellidoMaterno>
+      <FechaNacimiento>1979-02-02T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1014</Id>
+      <Nombre>Karim</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Bianchi</ApellidoPaterno>
+      <ApellidoMaterno>Retamales</ApellidoMaterno>
+      <FechaNacimiento>1983-01-31T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>815</Id>
+      <Nombre>Sergio</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Bobadilla</ApellidoPaterno>
+      <ApellidoMaterno>Muñoz</ApellidoMaterno>
+      <FechaNacimiento>1958-03-25T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>972</Id>
+      <Nombre>Gabriel</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Boric</ApellidoPaterno>
+      <ApellidoMaterno>Font</ApellidoMaterno>
+      <FechaNacimiento>1986-02-11T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>IND</Id>
+            <Nombre>Independientes</Nombre>
+            <Alias>IND</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1015</Id>
+      <Nombre>Jorge</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Brito</ApellidoPaterno>
+      <ApellidoMaterno>Hasbún</ApellidoMaterno>
+      <FechaNacimiento>1990-01-12T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1016</Id>
+      <Nombre>Miguel Ángel</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Calisto</ApellidoPaterno>
+      <ApellidoMaterno>Águila</ApellidoMaterno>
+      <FechaNacimiento>1985-07-19T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>973</Id>
+      <Nombre>Karol</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Cariola</ApellidoPaterno>
+      <ApellidoMaterno>Oliva</ApellidoMaterno>
+      <FechaNacimiento>1987-04-01T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PC</Id>
+            <Nombre>Partido Comunista</Nombre>
+            <Alias>PC</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1017</Id>
+      <Nombre>Álvaro</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Carter</ApellidoPaterno>
+      <ApellidoMaterno>Fernández</ApellidoMaterno>
+      <FechaNacimiento>1980-10-09T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>974</Id>
+      <Nombre>Loreto</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Carvajal</ApellidoPaterno>
+      <ApellidoMaterno>Ambiado</ApellidoMaterno>
+      <FechaNacimiento>1973-05-18T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PPD</Id>
+            <Nombre>Partido Por la Democracia</Nombre>
+            <Alias>PPD</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1018</Id>
+      <Nombre>Natalia</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Castillo</ApellidoPaterno>
+      <ApellidoMaterno>Muñoz</ApellidoMaterno>
+      <FechaNacimiento>1982-08-01T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1019</Id>
+      <Nombre>José Miguel</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Castro</ApellidoPaterno>
+      <ApellidoMaterno>Bascuñán</ApellidoMaterno>
+      <FechaNacimiento>1974-08-05T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>931</Id>
+      <Nombre>Juan Luis</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Castro</ApellidoPaterno>
+      <ApellidoMaterno>González</ApellidoMaterno>
+      <FechaNacimiento>1960-04-18T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1020</Id>
+      <Nombre>Ricardo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Celis</ApellidoPaterno>
+      <ApellidoMaterno>Araya</ApellidoMaterno>
+      <FechaNacimiento>1955-07-11T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1021</Id>
+      <Nombre>Andrés</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Celis</ApellidoPaterno>
+      <ApellidoMaterno>Montt</ApellidoMaterno>
+      <FechaNacimiento>1975-04-08T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>975</Id>
+      <Nombre>Daniella</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Cicardini</ApellidoPaterno>
+      <ApellidoMaterno>Milla</ApellidoMaterno>
+      <FechaNacimiento>1987-12-31T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1022</Id>
+      <Nombre>Sofía</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Cid</ApellidoPaterno>
+      <ApellidoMaterno>Versalovic</ApellidoMaterno>
+      <FechaNacimiento>1971-09-29T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>976</Id>
+      <Nombre>Juan Antonio</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Coloma</ApellidoPaterno>
+      <ApellidoMaterno>Álamos</ApellidoMaterno>
+      <FechaNacimiento>1980-03-14T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1023</Id>
+      <Nombre>Miguel</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Crispi</ApellidoPaterno>
+      <ApellidoMaterno>Serrano</ApellidoMaterno>
+      <FechaNacimiento>1985-04-09T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1024</Id>
+      <Nombre>Luciano</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Cruz-Coke</ApellidoPaterno>
+      <ApellidoMaterno>Carvallo</ApellidoMaterno>
+      <FechaNacimiento>1970-07-01T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1025</Id>
+      <Nombre>Catalina</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Del Real</ApellidoPaterno>
+      <ApellidoMaterno>Mihovilovic</ApellidoMaterno>
+      <FechaNacimiento>1968-11-07T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1026</Id>
+      <Nombre>Mario</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Desbordes</ApellidoPaterno>
+      <ApellidoMaterno>Jiménez</ApellidoMaterno>
+      <FechaNacimiento>1968-10-15T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>827</Id>
+      <Nombre>Marcelo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Díaz</ApellidoPaterno>
+      <ApellidoMaterno>Díaz</ApellidoMaterno>
+      <FechaNacimiento>1971-02-06T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1027</Id>
+      <Nombre>Jorge</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Durán</ApellidoPaterno>
+      <ApellidoMaterno>Espinoza</ApellidoMaterno>
+      <FechaNacimiento>1980-12-17T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1028</Id>
+      <Nombre>Eduardo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Durán</ApellidoPaterno>
+      <ApellidoMaterno>Salinas</ApellidoMaterno>
+      <FechaNacimiento>1972-01-01T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1029</Id>
+      <Nombre>Francisco</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Eguiguren</ApellidoPaterno>
+      <ApellidoMaterno>Correa</ApellidoMaterno>
+      <FechaNacimiento>1967-07-13T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>837</Id>
+      <Nombre>Fidel</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Espinoza</ApellidoPaterno>
+      <ApellidoMaterno>Sandoval</ApellidoMaterno>
+      <FechaNacimiento>1970-01-24T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2002-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2006-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>981</Id>
+      <Nombre>Maya</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Fernández</ApellidoPaterno>
+      <ApellidoMaterno>Allende</ApellidoMaterno>
+      <FechaNacimiento>1971-09-27T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>982</Id>
+      <Nombre>Iván</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Flores</ApellidoPaterno>
+      <ApellidoMaterno>García</ApellidoMaterno>
+      <FechaNacimiento>1955-06-15T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1030</Id>
+      <Nombre>Camila</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Flores</ApellidoPaterno>
+      <ApellidoMaterno>Oporto</ApellidoMaterno>
+      <FechaNacimiento>1987-02-09T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1031</Id>
+      <Nombre>Juan</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Fuenzalida</ApellidoPaterno>
+      <ApellidoMaterno>Cobo</ApellidoMaterno>
+      <FechaNacimiento>1973-07-01T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>984</Id>
+      <Nombre>Gonzalo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Fuenzalida</ApellidoPaterno>
+      <ApellidoMaterno>Figueroa</ApellidoMaterno>
+      <FechaNacimiento>1973-06-18T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>985</Id>
+      <Nombre>Sergio</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Gahona</ApellidoPaterno>
+      <ApellidoMaterno>Salazar</ApellidoMaterno>
+      <FechaNacimiento>1965-09-15T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1032</Id>
+      <Nombre>Ramón</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Galleguillos</ApellidoPaterno>
+      <ApellidoMaterno>Castillo</ApellidoMaterno>
+      <FechaNacimiento>1963-07-26T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>843</Id>
+      <Nombre>René Manuel</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>García</ApellidoPaterno>
+      <ApellidoMaterno>García</ApellidoMaterno>
+      <FechaNacimiento>1950-05-24T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>1990-03-11T00:00:00</FechaInicio>
+          <FechaTermino>1994-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>1994-03-11T00:00:00</FechaInicio>
+          <FechaTermino>1998-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>1998-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2002-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2002-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2006-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1033</Id>
+      <Nombre>Renato</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Garín</ApellidoPaterno>
+      <ApellidoMaterno>González</ApellidoMaterno>
+      <FechaNacimiento>1986-05-30T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>936</Id>
+      <Nombre>Cristina</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Girardi</ApellidoPaterno>
+      <ApellidoMaterno>Lavín</ApellidoMaterno>
+      <FechaNacimiento>1962-01-09T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PPD</Id>
+            <Nombre>Partido Por la Democracia</Nombre>
+            <Alias>PPD</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PPD</Id>
+            <Nombre>Partido Por la Democracia</Nombre>
+            <Alias>PPD</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1034</Id>
+      <Nombre>Félix</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>González</ApellidoPaterno>
+      <ApellidoMaterno>Gatica</ApellidoMaterno>
+      <FechaNacimiento>1972-05-26T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>848</Id>
+      <Nombre>Rodrigo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>González</ApellidoPaterno>
+      <ApellidoMaterno>Torres</ApellidoMaterno>
+      <FechaNacimiento>1941-09-26T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PPD</Id>
+            <Nombre>Partido Por la Democracia</Nombre>
+            <Alias>PPD</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PPD</Id>
+            <Nombre>Partido Por la Democracia</Nombre>
+            <Alias>PPD</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2002-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2006-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PPD</Id>
+            <Nombre>Partido Por la Democracia</Nombre>
+            <Alias>PPD</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PPD</Id>
+            <Nombre>Partido Por la Democracia</Nombre>
+            <Alias>PPD</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>937</Id>
+      <Nombre>Hugo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Gutiérrez</ApellidoPaterno>
+      <ApellidoMaterno>Gálvez</ApellidoMaterno>
+      <FechaNacimiento>1961-10-05T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PC</Id>
+            <Nombre>Partido Comunista</Nombre>
+            <Alias>PC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PC</Id>
+            <Nombre>Partido Comunista</Nombre>
+            <Alias>PC</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>850</Id>
+      <Nombre>Javier</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Hernández</ApellidoPaterno>
+      <ApellidoMaterno>Hernández</ApellidoMaterno>
+      <FechaNacimiento>1954-08-07T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2002-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2006-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>986</Id>
+      <Nombre>Marcela</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Hernando</ApellidoPaterno>
+      <ApellidoMaterno>Pérez</ApellidoMaterno>
+      <FechaNacimiento>1960-02-12T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PRSD</Id>
+            <Nombre>Partido Radical Social Demócrata</Nombre>
+            <Alias>PRSD</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1035</Id>
+      <Nombre>Carmen</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Hertz</ApellidoPaterno>
+      <ApellidoMaterno>Cádiz</ApellidoMaterno>
+      <FechaNacimiento>1945-06-19T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1036</Id>
+      <Nombre>Tomás</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Hirsch</ApellidoPaterno>
+      <ApellidoMaterno>Goldschmidt</ApellidoMaterno>
+      <FechaNacimiento>1956-07-19T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>940</Id>
+      <Nombre>María José</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Hoffmann</ApellidoPaterno>
+      <ApellidoMaterno>Opazo</ApellidoMaterno>
+      <FechaNacimiento>1976-12-28T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1037</Id>
+      <Nombre>Diego</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Ibáñez</ApellidoPaterno>
+      <ApellidoMaterno>Cotroneo</ApellidoMaterno>
+      <FechaNacimiento>1989-01-25T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1038</Id>
+      <Nombre>Marcos</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Ilabaca</ApellidoPaterno>
+      <ApellidoMaterno>Cerda</ApellidoMaterno>
+      <FechaNacimiento>1970-10-05T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>987</Id>
+      <Nombre>Giorgio</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Jackson</ApellidoPaterno>
+      <ApellidoMaterno>Drago</ApellidoMaterno>
+      <FechaNacimiento>1987-02-06T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>REVD</Id>
+            <Nombre>Revolución Democrática</Nombre>
+            <Alias>REVD</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>855</Id>
+      <Nombre>Carlos Abel</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Jarpa</ApellidoPaterno>
+      <ApellidoMaterno>Wevar</ApellidoMaterno>
+      <FechaNacimiento>1944-11-24T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PRSD</Id>
+            <Nombre>Partido Radical Social Demócrata</Nombre>
+            <Alias>PRSD</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PRSD</Id>
+            <Nombre>Partido Radical Social Demócrata</Nombre>
+            <Alias>PRSD</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>1998-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2002-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PRSD</Id>
+            <Nombre>Partido Radical Social Demócrata</Nombre>
+            <Alias>PRSD</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2002-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2006-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PRSD</Id>
+            <Nombre>Partido Radical Social Demócrata</Nombre>
+            <Alias>PRSD</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PRSD</Id>
+            <Nombre>Partido Radical Social Demócrata</Nombre>
+            <Alias>PRSD</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1039</Id>
+      <Nombre>Pamela</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Jiles</ApellidoPaterno>
+      <ApellidoMaterno>Moreno</ApellidoMaterno>
+      <FechaNacimiento>1960-11-30T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>856</Id>
+      <Nombre>Tucapel</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Jiménez</ApellidoPaterno>
+      <ApellidoMaterno>Fuentes</ApellidoMaterno>
+      <FechaNacimiento>1962-09-01T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PPD</Id>
+            <Nombre>Partido Por la Democracia</Nombre>
+            <Alias>PPD</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PPD</Id>
+            <Nombre>Partido Por la Democracia</Nombre>
+            <Alias>PPD</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PPD</Id>
+            <Nombre>Partido Por la Democracia</Nombre>
+            <Alias>PPD</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1040</Id>
+      <Nombre>Harry</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Jürgensen</ApellidoPaterno>
+      <ApellidoMaterno>Rundshagen</ApellidoMaterno>
+      <FechaNacimiento>1968-09-03T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1041</Id>
+      <Nombre>Pablo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Kast</ApellidoPaterno>
+      <ApellidoMaterno>Sommerhoff</ApellidoMaterno>
+      <FechaNacimiento>1973-08-24T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1042</Id>
+      <Nombre>Sebastián</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Keitel</ApellidoPaterno>
+      <ApellidoMaterno>Bianchi</ApellidoMaterno>
+      <FechaNacimiento>1973-02-14T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>967</Id>
+      <Nombre>Issa</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Kort</ApellidoPaterno>
+      <ApellidoMaterno>Garriga</ApellidoMaterno>
+      <FechaNacimiento>1980-05-09T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2011-08-10T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>172</Id>
+      <Nombre>Carlos</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Kuschel</ApellidoPaterno>
+      <ApellidoMaterno>Silva</ApellidoMaterno>
+      <FechaNacimiento>1953-03-16T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>1990-03-11T00:00:00</FechaInicio>
+          <FechaTermino>1994-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>1994-03-11T00:00:00</FechaInicio>
+          <FechaTermino>1998-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>1998-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2002-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2002-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2006-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1043</Id>
+      <Nombre>Amaro</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Labra</ApellidoPaterno>
+      <ApellidoMaterno>Sepúlveda</ApellidoMaterno>
+      <FechaNacimiento>1949-10-25T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>989</Id>
+      <Nombre>Joaquín</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Lavín</ApellidoPaterno>
+      <ApellidoMaterno>León</ApellidoMaterno>
+      <FechaNacimiento>1979-05-25T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1044</Id>
+      <Nombre>Raúl</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Leiva</ApellidoPaterno>
+      <ApellidoMaterno>Carvajal</ApellidoMaterno>
+      <FechaNacimiento>1974-03-24T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1045</Id>
+      <Nombre>Aracely</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Leuquén</ApellidoPaterno>
+      <ApellidoMaterno>Uribe</ApellidoMaterno>
+      <FechaNacimiento>1980-11-24T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1046</Id>
+      <Nombre>Andrés</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Longton</ApellidoPaterno>
+      <ApellidoMaterno>Herrera</ApellidoMaterno>
+      <FechaNacimiento>1982-05-26T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>862</Id>
+      <Nombre>Pablo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Lorenzini</ApellidoPaterno>
+      <ApellidoMaterno>Basso</ApellidoMaterno>
+      <FechaNacimiento>1949-10-25T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>1998-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2002-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2002-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2006-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1047</Id>
+      <Nombre>Karin</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Luck</ApellidoPaterno>
+      <ApellidoMaterno>Urban</ApellidoMaterno>
+      <FechaNacimiento>1971-07-19T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>942</Id>
+      <Nombre>Javier</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Macaya</ApellidoPaterno>
+      <ApellidoMaterno>Danús</ApellidoMaterno>
+      <FechaNacimiento>1978-11-11T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1048</Id>
+      <Nombre>Carolina</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Marzán</ApellidoPaterno>
+      <ApellidoMaterno>Pinto</ApellidoMaterno>
+      <FechaNacimiento>1963-12-22T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>660</Id>
+      <Nombre>Manuel</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Matta</ApellidoPaterno>
+      <ApellidoMaterno>Aragay</ApellidoMaterno>
+      <FechaNacimiento>1946-11-10T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>1990-03-11T00:00:00</FechaInicio>
+          <FechaTermino>1994-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>865</Id>
+      <Nombre>Patricio</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Melero</ApellidoPaterno>
+      <ApellidoMaterno>Abaroa</ApellidoMaterno>
+      <FechaNacimiento>1956-06-19T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>1990-03-11T00:00:00</FechaInicio>
+          <FechaTermino>1994-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>1994-03-11T00:00:00</FechaInicio>
+          <FechaTermino>1998-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>1998-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2002-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2002-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2006-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1049</Id>
+      <Nombre>Cosme</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Mellado</ApellidoPaterno>
+      <ApellidoMaterno>Pino</ApellidoMaterno>
+      <FechaNacimiento>1960-02-24T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1050</Id>
+      <Nombre>Miguel</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Mellado</ApellidoPaterno>
+      <ApellidoMaterno>Suazo</ApellidoMaterno>
+      <FechaNacimiento>1958-12-29T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>866</Id>
+      <Nombre>Fernando</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Meza</ApellidoPaterno>
+      <ApellidoMaterno>Moncada</ApellidoMaterno>
+      <FechaNacimiento>1946-07-14T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PRSD</Id>
+            <Nombre>Partido Radical Social Demócrata</Nombre>
+            <Alias>PRSD</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PRSD</Id>
+            <Nombre>Partido Radical Social Demócrata</Nombre>
+            <Alias>PRSD</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2002-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2006-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PRSD</Id>
+            <Nombre>Partido Radical Social Demócrata</Nombre>
+            <Alias>PRSD</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PRSD</Id>
+            <Nombre>Partido Radical Social Demócrata</Nombre>
+            <Alias>PRSD</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>991</Id>
+      <Nombre>Vlado</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Mirosevic</ApellidoPaterno>
+      <ApellidoMaterno>Verdugo</ApellidoMaterno>
+      <FechaNacimiento>1987-05-23T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PL</Id>
+            <Nombre>Partido Liberal de Chile</Nombre>
+            <Alias>PL</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1051</Id>
+      <Nombre>Claudia</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Mix</ApellidoPaterno>
+      <ApellidoMaterno>Jiménez</ApellidoMaterno>
+      <FechaNacimiento>1969-07-13T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1052</Id>
+      <Nombre>Andrés</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Molina</ApellidoPaterno>
+      <ApellidoMaterno>Magofke</ApellidoMaterno>
+      <FechaNacimiento>1963-11-17T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>869</Id>
+      <Nombre>Manuel</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Monsalve</ApellidoPaterno>
+      <ApellidoMaterno>Benavides</ApellidoMaterno>
+      <FechaNacimiento>1965-07-09T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>945</Id>
+      <Nombre>Celso</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Morales</ApellidoPaterno>
+      <ApellidoMaterno>Muñoz</ApellidoMaterno>
+      <FechaNacimiento>1957-07-10T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1053</Id>
+      <Nombre>Cristhian</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Moreira</ApellidoPaterno>
+      <ApellidoMaterno>Barros</ApellidoMaterno>
+      <FechaNacimiento>1961-09-05T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>872</Id>
+      <Nombre>Jaime</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Mulet</ApellidoPaterno>
+      <ApellidoMaterno>Martínez</ApellidoMaterno>
+      <FechaNacimiento>1963-08-03T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PRI</Id>
+            <Nombre>Partido Regionalista Independiente</Nombre>
+            <Alias>PRI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>1998-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2002-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2002-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2006-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1054</Id>
+      <Nombre>Francesca</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Muñoz</ApellidoPaterno>
+      <ApellidoMaterno>González</ApellidoMaterno>
+      <FechaNacimiento>1980-03-07T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>74</Id>
+      <Nombre>Jaime</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Naranjo</ApellidoPaterno>
+      <ApellidoMaterno>Ortiz</ApellidoMaterno>
+      <FechaNacimiento>1951-01-12T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>1990-03-11T00:00:00</FechaInicio>
+          <FechaTermino>1994-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>1994-03-11T00:00:00</FechaInicio>
+          <FechaTermino>1998-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>1998-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2002-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1055</Id>
+      <Nombre>Nicolás</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Noman</ApellidoPaterno>
+      <ApellidoMaterno>Garrido</ApellidoMaterno>
+      <FechaNacimiento>1981-05-07T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>875</Id>
+      <Nombre>Iván</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Norambuena</ApellidoPaterno>
+      <ApellidoMaterno>Farías</ApellidoMaterno>
+      <FechaNacimiento>1958-09-04T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2002-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2006-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>993</Id>
+      <Nombre>Daniel</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Núñez</ApellidoPaterno>
+      <ApellidoMaterno>Arancibia</ApellidoMaterno>
+      <FechaNacimiento>1971-01-07T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PC</Id>
+            <Nombre>Partido Comunista</Nombre>
+            <Alias>PC</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>994</Id>
+      <Nombre>Paulina</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Núñez</ApellidoPaterno>
+      <ApellidoMaterno>Urrutia</ApellidoMaterno>
+      <FechaNacimiento>1982-12-30T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1056</Id>
+      <Nombre>Emilia</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Nuyado</ApellidoPaterno>
+      <ApellidoMaterno>Ancapichún</ApellidoMaterno>
+      <FechaNacimiento>1968-08-17T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1057</Id>
+      <Nombre>Erika</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Olivera</ApellidoPaterno>
+      <ApellidoMaterno>De La Fuente</ApellidoMaterno>
+      <FechaNacimiento>1976-01-04T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1058</Id>
+      <Nombre>Maite</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Orsini</ApellidoPaterno>
+      <ApellidoMaterno>Pascal</ApellidoMaterno>
+      <FechaNacimiento>1988-02-23T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>879</Id>
+      <Nombre>José Miguel</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Ortiz</ApellidoPaterno>
+      <ApellidoMaterno>Novoa</ApellidoMaterno>
+      <FechaNacimiento>1941-11-22T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>1990-03-11T00:00:00</FechaInicio>
+          <FechaTermino>1994-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>1994-03-11T00:00:00</FechaInicio>
+          <FechaTermino>1998-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>1998-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2002-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2002-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2006-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1059</Id>
+      <Nombre>Ximena</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Ossandón</ApellidoPaterno>
+      <ApellidoMaterno>Irarrázabal</ApellidoMaterno>
+      <FechaNacimiento>1963-12-13T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1060</Id>
+      <Nombre>Luis</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Pardo</ApellidoPaterno>
+      <ApellidoMaterno>Sáinz</ApellidoMaterno>
+      <FechaNacimiento>1960-12-13T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1061</Id>
+      <Nombre>Andrea</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Parra</ApellidoPaterno>
+      <ApellidoMaterno>Sauterel</ApellidoMaterno>
+      <FechaNacimiento>1967-09-02T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>995</Id>
+      <Nombre>Diego</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Paulsen</ApellidoPaterno>
+      <ApellidoMaterno>Kehr</ApellidoMaterno>
+      <FechaNacimiento>1987-08-01T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>885</Id>
+      <Nombre>José</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Pérez</ApellidoPaterno>
+      <ApellidoMaterno>Arriagada</ApellidoMaterno>
+      <FechaNacimiento>1940-12-29T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PRSD</Id>
+            <Nombre>Partido Radical Social Demócrata</Nombre>
+            <Alias>PRSD</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PRSD</Id>
+            <Nombre>Partido Radical Social Demócrata</Nombre>
+            <Alias>PRSD</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>1998-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2002-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PRSD</Id>
+            <Nombre>Partido Radical Social Demócrata</Nombre>
+            <Alias>PRSD</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2002-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2006-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PRSD</Id>
+            <Nombre>Partido Radical Social Demócrata</Nombre>
+            <Alias>PRSD</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PRSD</Id>
+            <Nombre>Partido Radical Social Demócrata</Nombre>
+            <Alias>PRSD</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>946</Id>
+      <Nombre>Leopoldo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Pérez</ApellidoPaterno>
+      <ApellidoMaterno>Lahsen</ApellidoMaterno>
+      <FechaNacimiento>1957-03-28T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1062</Id>
+      <Nombre>Joanna</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Pérez</ApellidoPaterno>
+      <ApellidoMaterno>Olea</ApellidoMaterno>
+      <FechaNacimiento>1976-04-01T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1063</Id>
+      <Nombre>Catalina</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Pérez</ApellidoPaterno>
+      <ApellidoMaterno>Salinas</ApellidoMaterno>
+      <FechaNacimiento>1990-12-18T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1064</Id>
+      <Nombre>Pablo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Prieto</ApellidoPaterno>
+      <ApellidoMaterno>Lorca</ApellidoMaterno>
+      <FechaNacimiento>1959-05-04T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1065</Id>
+      <Nombre>Guillermo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Ramírez</ApellidoPaterno>
+      <ApellidoMaterno>Diez</ApellidoMaterno>
+      <FechaNacimiento>1979-04-16T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>999</Id>
+      <Nombre>Jorge</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Rathgeb</ApellidoPaterno>
+      <ApellidoMaterno>Schifferli</ApellidoMaterno>
+      <FechaNacimiento>1967-12-28T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1066</Id>
+      <Nombre>Rolando</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Rentería</ApellidoPaterno>
+      <ApellidoMaterno>Moller</ApellidoMaterno>
+      <FechaNacimiento>1968-08-19T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1067</Id>
+      <Nombre>Hugo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Rey</ApellidoPaterno>
+      <ApellidoMaterno>Martínez</ApellidoMaterno>
+      <FechaNacimiento>1973-12-06T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1000</Id>
+      <Nombre>Luis</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Rocafull</ApellidoPaterno>
+      <ApellidoMaterno>López</ApellidoMaterno>
+      <FechaNacimiento>1958-09-17T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1068</Id>
+      <Nombre>Camila</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Rojas</ApellidoPaterno>
+      <ApellidoMaterno>Valderrama</ApellidoMaterno>
+      <FechaNacimiento>1991-03-11T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1069</Id>
+      <Nombre>Leonidas</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Romero</ApellidoPaterno>
+      <ApellidoMaterno>Sáez</ApellidoMaterno>
+      <FechaNacimiento>1955-10-15T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1070</Id>
+      <Nombre>Patricio</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Rosas</ApellidoPaterno>
+      <ApellidoMaterno>Barrientos</ApellidoMaterno>
+      <FechaNacimiento>1968-05-06T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1071</Id>
+      <Nombre>Gastón</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Saavedra</ApellidoPaterno>
+      <ApellidoMaterno>Chandía</ApellidoMaterno>
+      <FechaNacimiento>1955-11-22T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>893</Id>
+      <Nombre>Jorge</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Sabag</ApellidoPaterno>
+      <ApellidoMaterno>Villalobos</ApellidoMaterno>
+      <FechaNacimiento>1963-12-26T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>949</Id>
+      <Nombre>Marcela</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Sabat</ApellidoPaterno>
+      <ApellidoMaterno>Fernández</ApellidoMaterno>
+      <FechaNacimiento>1981-04-04T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>950</Id>
+      <Nombre>René</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Saffirio</ApellidoPaterno>
+      <ApellidoMaterno>Espinoza</ApellidoMaterno>
+      <FechaNacimiento>1955-10-09T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>IND</Id>
+            <Nombre>Independientes</Nombre>
+            <Alias>IND</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1001</Id>
+      <Nombre>Raúl</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Saldívar</ApellidoPaterno>
+      <ApellidoMaterno>Auger</ApellidoMaterno>
+      <FechaNacimiento>1951-06-02T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1072</Id>
+      <Nombre>Gustavo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Sanhueza</ApellidoPaterno>
+      <ApellidoMaterno>Dueñas</ApellidoMaterno>
+      <FechaNacimiento>1966-12-10T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1073</Id>
+      <Nombre>Juan</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Santana</ApellidoPaterno>
+      <ApellidoMaterno>Castillo</ApellidoMaterno>
+      <FechaNacimiento>1989-09-20T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>952</Id>
+      <Nombre>Alejandro</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Santana</ApellidoPaterno>
+      <ApellidoMaterno>Tirachini</ApellidoMaterno>
+      <FechaNacimiento>1965-07-18T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1074</Id>
+      <Nombre>Marisela</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Santibáñez</ApellidoPaterno>
+      <ApellidoMaterno>Novoa</ApellidoMaterno>
+      <FechaNacimiento>1975-04-24T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>953</Id>
+      <Nombre>Frank</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Sauerbaum</ApellidoPaterno>
+      <ApellidoMaterno>Muñoz</ApellidoMaterno>
+      <FechaNacimiento>1972-11-21T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>RN</Id>
+            <Nombre>Renovación Nacional</Nombre>
+            <Alias>RN</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1075</Id>
+      <Nombre>Diego</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Schalper</ApellidoPaterno>
+      <ApellidoMaterno>Sepúlveda</ApellidoMaterno>
+      <FechaNacimiento>1985-03-14T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>920</Id>
+      <Nombre>Marcelo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Schilling</ApellidoPaterno>
+      <ApellidoMaterno>Rodríguez</ApellidoMaterno>
+      <FechaNacimiento>1949-05-18T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2008-08-12T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>897</Id>
+      <Nombre>Alejandra</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Sepúlveda</ApellidoPaterno>
+      <ApellidoMaterno>Orbenes</ApellidoMaterno>
+      <FechaNacimiento>1965-11-13T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>IND</Id>
+            <Nombre>Independientes</Nombre>
+            <Alias>IND</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PRI</Id>
+            <Nombre>Partido Regionalista Independiente</Nombre>
+            <Alias>PRI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2002-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2006-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>IND</Id>
+            <Nombre>Independientes</Nombre>
+            <Alias>IND</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1076</Id>
+      <Nombre>Alexis</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Sepúlveda</ApellidoPaterno>
+      <ApellidoMaterno>Soto</ApellidoMaterno>
+      <FechaNacimiento>1969-12-29T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>898</Id>
+      <Nombre>Gabriel</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Silber</ApellidoPaterno>
+      <ApellidoMaterno>Romo</ApellidoMaterno>
+      <FechaNacimiento>1976-09-15T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1002</Id>
+      <Nombre>Leonardo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Soto</ApellidoPaterno>
+      <ApellidoMaterno>Ferrada</ApellidoMaterno>
+      <FechaNacimiento>1966-05-15T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PS</Id>
+            <Nombre>Partido Socialista</Nombre>
+            <Alias>PS</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1077</Id>
+      <Nombre>Raúl</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Soto</ApellidoPaterno>
+      <ApellidoMaterno>Mardones</ApellidoMaterno>
+      <FechaNacimiento>1987-11-20T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>956</Id>
+      <Nombre>Guillermo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Teillier</ApellidoPaterno>
+      <ApellidoMaterno>Del Valle</ApellidoMaterno>
+      <FechaNacimiento>1943-10-29T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>PC</Id>
+            <Nombre>Partido Comunista</Nombre>
+            <Alias>PC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PC</Id>
+            <Nombre>Partido Comunista</Nombre>
+            <Alias>PC</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1078</Id>
+      <Nombre>Jaime</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Tohá</ApellidoPaterno>
+      <ApellidoMaterno>González</ApellidoMaterno>
+      <FechaNacimiento>1938-06-16T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1079</Id>
+      <Nombre>Sebastián</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Torrealba</ApellidoPaterno>
+      <ApellidoMaterno>Alvarado</ApellidoMaterno>
+      <FechaNacimiento>1981-02-06T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>957</Id>
+      <Nombre>Víctor</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Torres</ApellidoPaterno>
+      <ApellidoMaterno>Jeldes</ApellidoMaterno>
+      <FechaNacimiento>1975-10-11T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1003</Id>
+      <Nombre>Renzo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Trisotti</ApellidoPaterno>
+      <ApellidoMaterno>Martínez</ApellidoMaterno>
+      <FechaNacimiento>1976-03-15T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1080</Id>
+      <Nombre>Virginia</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Troncoso</ApellidoPaterno>
+      <ApellidoMaterno>Hellman</ApellidoMaterno>
+      <FechaNacimiento>1951-02-18T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1081</Id>
+      <Nombre>Francisco</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Undurraga</ApellidoPaterno>
+      <ApellidoMaterno>Gazitúa</ApellidoMaterno>
+      <FechaNacimiento>1965-09-29T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>908</Id>
+      <Nombre>Ignacio</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Urrutia</ApellidoPaterno>
+      <ApellidoMaterno>Bonilla</ApellidoMaterno>
+      <FechaNacimiento>1957-09-16T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2002-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2006-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1005</Id>
+      <Nombre>Osvaldo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Urrutia</ApellidoPaterno>
+      <ApellidoMaterno>Soto</ApellidoMaterno>
+      <FechaNacimiento>1951-11-28T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1082</Id>
+      <Nombre>Cristóbal</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Urruticoechea</ApellidoPaterno>
+      <ApellidoMaterno>Ríos</ApellidoMaterno>
+      <FechaNacimiento>1975-11-21T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1006</Id>
+      <Nombre>Camila</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Vallejo</ApellidoPaterno>
+      <ApellidoMaterno>Dowling</ApellidoMaterno>
+      <FechaNacimiento>1988-04-28T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>PC</Id>
+            <Nombre>Partido Comunista</Nombre>
+            <Alias>PC</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>959</Id>
+      <Nombre>Enrique</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Van Rysselberghe</ApellidoPaterno>
+      <ApellidoMaterno>Herrera</ApellidoMaterno>
+      <FechaNacimiento>1976-09-17T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1083</Id>
+      <Nombre>Esteban</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Velásquez</ApellidoPaterno>
+      <ApellidoMaterno>Núñez</ApellidoMaterno>
+      <FechaNacimiento>1962-12-26T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>961</Id>
+      <Nombre>Pedro</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Velásquez</ApellidoPaterno>
+      <ApellidoMaterno>Seguel</ApellidoMaterno>
+      <FechaNacimiento>1964-08-05T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>IND</Id>
+            <Nombre>Independientes</Nombre>
+            <Alias>IND</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>913</Id>
+      <Nombre>Mario</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Venegas</ApellidoPaterno>
+      <ApellidoMaterno>Cárdenas</ApellidoMaterno>
+      <FechaNacimiento>1957-12-03T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1084</Id>
+      <Nombre>Daniel</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Verdessi</ApellidoPaterno>
+      <ApellidoMaterno>Belemmi</ApellidoMaterno>
+      <FechaNacimiento>1952-12-15T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1085</Id>
+      <Nombre>Pablo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Vidal</ApellidoPaterno>
+      <ApellidoMaterno>Rojas</ApellidoMaterno>
+      <FechaNacimiento>1983-06-24T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>917</Id>
+      <Nombre>Gastón</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Von Mühlenbrock</ApellidoPaterno>
+      <ApellidoMaterno>Zamora</ApellidoMaterno>
+      <FechaNacimiento>1954-12-26T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2006-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2010-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2002-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2006-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>UDI</Id>
+            <Nombre>Unión Demócrata Independiente</Nombre>
+            <Alias>UDI</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>963</Id>
+      <Nombre>Matías</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Walker</ApellidoPaterno>
+      <ApellidoMaterno>Prieto</ApellidoMaterno>
+      <FechaNacimiento>1973-07-19T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias>
+        <Militancia>
+          <FechaInicio>2010-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2014-03-10T00:00:00</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+        <Militancia>
+          <FechaInicio>2014-03-11T00:00:00</FechaInicio>
+          <FechaTermino>2018-03-10T23:59:59</FechaTermino>
+          <Partido>
+            <Id>DC</Id>
+            <Nombre>Partido Demócrata Cristiano</Nombre>
+            <Alias>DC</Alias>
+          </Partido>
+        </Militancia>
+      </Militancias>
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1086</Id>
+      <Nombre>Gonzalo</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Winter</ApellidoPaterno>
+      <ApellidoMaterno>Etcheberry</ApellidoMaterno>
+      <FechaNacimiento>1987-01-06T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="1">Masculino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+  <DiputadoPeriodo>
+    <FechaInicio>2022-03-10T23:59:59</FechaInicio>
+    <FechaTermino xsi:nil="true" />
+    <Diputado>
+      <Id>1087</Id>
+      <Nombre>Gael</Nombre>
+      <Nombre2 />
+      <ApellidoPaterno>Yeomans</ApellidoPaterno>
+      <ApellidoMaterno>Araya</ApellidoMaterno>
+      <FechaNacimiento>1988-12-04T00:00:00</FechaNacimiento>
+      <RUT />
+      <RUTDV />
+      <Sexo Valor="0">Femenino</Sexo>
+      <Militancias />
+    </Diputado>
+  </DiputadoPeriodo>
+</DiputadosPeriodoColeccion>
