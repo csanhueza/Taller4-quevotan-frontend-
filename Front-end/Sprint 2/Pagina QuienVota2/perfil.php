@@ -53,8 +53,7 @@
           </button>
         <div class="collapse navbar-collapse" id="menu">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link"  href="index.html">Inicio</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Boletin</a></li>
+            <li class="nav-item"><a class="nav-link"  href="index.php">Inicio</a></li>
             <li class="nav-item"><a class="nav-link"  href="#">Diputados</a></li>
             <li class="nav-item"><a class="nav-link"  href="#">Contacto</a></li>
           </ul>
@@ -83,6 +82,7 @@
   echo "<p> Nombre : ".$data[0]['nombre']." ".$data[0]['apellido_paterno']."</p>";
   echo "<p> Region : ".$data[0]['region']."</p>";
   echo "<p> Distrito : ".$data[0]['distrito']."</p>";
+  echo "<p> Partido : ".$data[0]['partido']."</p>";
   echo "</div>";
 ?>
   <!-- Informacion de votos del diputado -->

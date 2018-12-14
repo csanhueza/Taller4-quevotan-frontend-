@@ -49,8 +49,7 @@
           </button>
         <div class="collapse navbar-collapse" id="menu">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link"  href="index.html">Inicio</a></li>
-            <li class="nav-item"><a class="nav-link" href="index2.html">Boletin</a></li>
+            <li class="nav-item"><a class="nav-link"  href="index.php">Inicio</a></li>
             <li class="nav-item"><a class="nav-link"  href="Diputados.php">Diputados</a></li>
             <li class="nav-item"><a class="nav-link"  href="contacto.html">Contacto</a></li>
           </ul>
@@ -113,14 +112,29 @@
       </div>
       <!--end of col-->
     </div>
-    <div class="col-12 col-md-10 col-lg-8 justify-content-center ">       
-        <br>     
-         <div class="card " style="margin-left: 25%">
-              <div class="card-header bg-success text-white">Votacion #12</div>
-              <div class="card-body">Content</div> 
-          </div>            
-    </div>         
-           </div>
+    <br> 
+<?php       
+  require 'vendor/autoload.php';
+  
+  $conn = new MongoDB\Client("mongodb://localhost:27017");
+  $col = $conn->quevotan->proyecto;
+  $data = $col -> find()->toArray();
+  
+  $i = 0;
+  while( $i < count($data))
+  {
+    echo "<div class='card '>";
+    echo "<div class='card-header bg-success text-white'>ID : ".$data[$i]['_id'].", Materia: ". $data[$i]['materia']."</div>";
+    echo "<div class='card-body'>Detalle : ".$data[$i]['nombre']."</div>"; 
+    echo "</div>";
+    echo "<br>";
+    $i+=1;
+  }     
+  
+
+?>
+        
+        </div>
     </section>
 
     <!-- Footer -->
