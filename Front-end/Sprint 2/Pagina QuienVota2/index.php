@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Que Votan</title>
+    <link rel="shortcut icon" href="img/Chile.ico" /> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
     <!-- Style -->
     <style media="screen">
       @media (min-width: 576px) {
@@ -100,11 +100,11 @@
               </div>
                 <!--end of col-->
                   <div class="col">
-                    <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Buscar Votaciones o Diputados...">
+                    <input id='datos' class="form-control form-control-lg form-control-borderless" type="search" placeholder="Buscar Votaciones o Diputados...">
                   </div>
                   <!--end of col-->
                   <div class="col-auto">
-                    <button class="btn btn-lg btn-success" type="submit">Buscar</button>
+                    <input type="submit" id="btn"class="btn btn-lg btn-success" value="Buscar"></input>
                   </div>
                   <!--end of col-->
           </div>
@@ -113,6 +113,7 @@
       <!--end of col-->
     </div>
     <br> 
+    <div id="lista">
 <?php       
   require 'vendor/autoload.php';
   
@@ -123,18 +124,16 @@
   $i = 0;
   while( $i < count($data))
   {
-    echo "<div class='card '>";
+    echo "<div class='card'>";
     echo "<div class='card-header bg-success text-white'>ID : ".$data[$i]['_id'].", Materia: ". $data[$i]['materia']."</div>";
     echo "<div class='card-body'>Detalle : ".$data[$i]['nombre']."</div>"; 
     echo "</div>";
     echo "<br>";
     $i+=1;
   }     
-  
-
 ?>
-        
-        </div>
+    </div>
+    </div>
     </section>
 
     <!-- Footer -->
@@ -187,14 +186,20 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <!-- Scripts -->
-    <script>
-      window.sr = ScrollReveal();
-      sr.reveal('.navbar', {
-        duration:2000,
-        origin: 'bottom'
-      });
-    </script>
-
   </body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('input[type="submit"]').attr('disabled','disabled');
+    $("#datos").keyup(function(){ 
+      var value = $(this).val().toLowerCase();
+      $("#lista .card").filter(function(){
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });   
+      if($(this).val() != ''){
+         $('input[type="submit"]').removeAttr('disabled');
+      }
+    });
+  });
+</script>
 </html>
