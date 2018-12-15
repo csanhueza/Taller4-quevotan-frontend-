@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Que Votan</title>
-    <link rel="shortcut icon" href="img/Chile.ico" /> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <!-- Style -->
     <style media="screen">
       @media (min-width: 576px) {
@@ -88,54 +88,65 @@
       </div>
     </div>
 </header>
-    <section>
+
+<section>
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-<div class="container">
+    <div class="container">
     <br/>
 	<div class="row justify-content-center">
-    <div class="col-12 col-md-10 col-lg-8">
-      <form class="card card-sm">
-        <div class="card-body row no-gutters align-items-center">
-          <div class="col-auto">
-            <i class="fas fa-search h4 text-body"></i>
-              </div>
-                <!--end of col-->
-                  <div class="col">
-                    <input id='datos' class="form-control form-control-lg form-control-borderless" type="search" placeholder="Buscar Votaciones o Diputados...">
-                  </div>
-                  <!--end of col-->
-                  <div class="col-auto">
-                    <input type="submit" id="btn"class="btn btn-lg btn-success" value="Buscar"></input>
-                  </div>
-                  <!--end of col-->
-          </div>
-        </form>
-      </div>
-      <!--end of col-->
-    </div>
-    <br> 
-    <div id="lista">
-<?php       
-  require 'vendor/autoload.php';
-  
-  $conn = new MongoDB\Client("mongodb://localhost:27017");
-  $col = $conn->quevotan->proyecto;
-  $data = $col -> find()->toArray();
-  
-  $i = 0;
-  while( $i < count($data))
-  {
-    echo "<div class='card'>";
-    echo "<div class='card-header bg-success text-white'>ID : ".$data[$i]['_id'].", Materia: ". $data[$i]['materia']."</div>";
-    echo "<div class='card-body'>Detalle : ".$data[$i]['nombre']."</div>"; 
-    echo "</div>";
-    echo "<br>";
-    $i+=1;
-  }     
-?>
-    </div>
+    
+            <h1>Acerca del proyecto:</h1>
+            <br><br><br>
+            <p style="text-align: justify">
+                En la actualidad el sistema de partidos políticos chileno es uno de los más institucionalizados
+                de América Latina (Mainwaring y Scully, 1995). En Chile el electorado y la competencia
+                partidaria se han estructurado en torno al eje ideológico de izquierda, centro y derecha. Sin
+                embargo, cuando se generó el plebiscito de 1988 y el sistema binominal, modificaron la
+                competencia y la identificación en torno a dos fisuras representadas por dos coaliciones,
+                Alianza por Chile y los Partidos por la democracia.
+                <br><br>
+                El problema radica, en que Chile como uno de los países más institucionalizados a nivel de
+                sistemas de partidos de América Latina, no presente una alta identificación partidaria, por
+                ende, los partidos no están fuertemente arraigados en la sociedad. Desde los años 90 los
+                chilenos que se identifican con un eje ideológico, partido y coalición han visto su
+                participación disminuida paulatinamente.
+                <br><br>
+                Como síntesis el trabajo busca presentar, la visualización de las tendencias políticas en
+                nuestro país, basado en un sistema estadístico, en el cuál se logre llevar mediante realizar
+                una correcta definición de datos a través de un algoritmo. Con esto se busca transparentar
+                las tendencias políticas a nivel nacional, permitiendo que ésta investigación sea de uso
+                ciudadano permitiendo observar las tendencias políticas al momento de presentarse
+                votaciones, utilizando los antiguos votos que han realizado en la cámara de Diputados.
+                <br><br>
+                El primer análisis que debe realizarse es la importancia de identificar a los diputados que
+                han pasado por la cámara, identificando sus votaciones, a qué partido pertenece, región a la
+                que representa, entre otros, esto nos permitirá con el algoritmo identificar la tendencia de
+                votación que el diputado posee, en ciertos temas, ya sean políticos o económicos en el cuál
+                todos nos vemos involucrados como país.
+            </p>
+            <br><br>
+     </div>
+    <div class="col-auto">
+        <h3>Personas a Cargo del Proyecto y su Desarrollo:</h3>
+        <h3>Personas a cargo:</h3>
+        <br>
+            <p>Profesor: JULIO CESAR ROJAS MORA</p>
+            <p>Estudiantes: CARLOS SANHUEZA RAMIREZ, JUAN </p>
+            <br>
+        <h3>Grupos Desarrollo Proyecto</h3>
+        <h3>Front-End:</h3>
+            <p> Fernando Aedo: Lider de grupo<br>
+                Marcelo Castillo<br>
+                Juan Cid Lillo<br>
+                Luis Camilo Ferreira<br>
+                Fernando Yañez</p>
+        <h3>Back-End:</h3>
+            <br><br>
     </div>
     
+    <br>    
+    </div>
+
     </section>
 
     <!-- Footer -->
@@ -188,21 +199,15 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript">
-  $(document).ready(function(){
-    $('input[type="submit"]').attr('disabled','disabled');
-    $("#datos").keyup(function(){ 
-      var value = $(this).val().toLowerCase();
-      $("#lista .card").filter(function(){
-        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-      });   
-      if($(this).val() != ''){
-         $('input[type="submit"]').removeAttr('disabled');
-      }
-    });
-  });
-</script>
+    <!-- Scripts -->
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal('.navbar', {
+        duration:2000,
+        origin: 'bottom'
+      });
+    </script>
 
+  </body>
 </html>
+    
