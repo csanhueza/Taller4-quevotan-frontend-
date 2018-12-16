@@ -74,7 +74,7 @@
   $conn = new MongoDB\Client("mongodb://localhost:27017");
   $col = $conn->quevotan->parlamentario;
   $data = $col -> find()->toArray();
-  
+
   $i = 0;
   while( $i < count($data))
   {

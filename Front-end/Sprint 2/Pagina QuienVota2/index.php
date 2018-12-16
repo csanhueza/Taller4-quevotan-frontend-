@@ -123,7 +123,7 @@
   $i = 0;
   while( $i < count($data))
   {
-    echo "<a style='text-decoration:none;color:black;' href='boletin.php?id=".$data[$i]['id_votacion']."'><div class='card'>";
+    echo "<a style='text-decoration:none;color:black;' href='Detalle.php?id=".$data[$i]['id_votacion']."'><div class='card'>";
     echo "<div class='card-header bg-success text-white'>ID : ".$data[$i]['id_votacion'].", Materia: ". $data[$i]['materia']."</div>";
     echo "<div class='card-body'>Detalle : ".$data[$i]['nombre']."</div>"; 
     echo "</div></a>";
