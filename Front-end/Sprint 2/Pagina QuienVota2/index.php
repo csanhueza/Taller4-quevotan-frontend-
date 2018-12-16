@@ -28,7 +28,6 @@
           background:  #F7F9F9;
         }
       }
-
     </style>
   </head>
   <body>
@@ -124,10 +123,10 @@
   $i = 0;
   while( $i < count($data))
   {
-    echo "<div class='card'>";
-    echo "<div class='card-header bg-success text-white'>ID : ".$data[$i]['_id'].", Materia: ". $data[$i]['materia']."</div>";
+    echo "<a style='text-decoration:none;color:black;' href='boletin.php?id=".$data[$i]['id_votacion']."'><div class='card'>";
+    echo "<div class='card-header bg-success text-white'>ID : ".$data[$i]['id_votacion'].", Materia: ". $data[$i]['materia']."</div>";
     echo "<div class='card-body'>Detalle : ".$data[$i]['nombre']."</div>"; 
-    echo "</div>";
+    echo "</div></a>";
     echo "<br>";
     $i+=1;
   }     
