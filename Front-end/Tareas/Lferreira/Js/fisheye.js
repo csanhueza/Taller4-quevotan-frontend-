@@ -53,6 +53,7 @@
     function fisheye(_) {
       var x = scale(_),
           left = x < a,
+          v,
           range = d3.extent(scale.range()),
           min = range[0],
           max = range[1],
