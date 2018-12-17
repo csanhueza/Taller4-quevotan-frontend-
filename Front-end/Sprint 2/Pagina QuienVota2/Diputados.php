@@ -52,6 +52,7 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link"  href="index.php">Inicio</a></li>
             <li class="nav-item"><a class="nav-link"  href="Diputados.php">Diputados</a></li>
+            <li class="nav-item"><a class="nav-link"  href="Acercade.html">Acerca de</a></li>
             <li class="nav-item"><a class="nav-link"  href="contacto.html">Contacto</a></li>
           </ul>
         </div>
@@ -74,7 +75,7 @@
   $conn = new MongoDB\Client("mongodb://localhost:27017");
   $col = $conn->quevotan->parlamentario;
   $data = $col -> find()->toArray();
-  
+
   $i = 0;
   while( $i < count($data))
   {

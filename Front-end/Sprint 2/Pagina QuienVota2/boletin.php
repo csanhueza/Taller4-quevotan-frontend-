@@ -59,12 +59,10 @@
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
-
         <!-- Page Content -->
         <div id="page-content-wrapper">
             <div class="container-fluid">
               <!-- texto adicional -->
-
                 <h1>Boletin</h1>
                 <hr>
                 <p>Graficos</p>
@@ -72,7 +70,18 @@
                 <!-- boton menu-->
                 <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Menu</a>
                 <section>
-                    <div id="chart"></div>
+                    <div class="container">
+                        <br>
+                        <div id="chart" class="col-10"></div>
+                        <div class="col-10">
+                         <p> Votos </p>
+
+
+                        </div>
+
+
+
+                    </div>
                 </section>
             </div>
         </div>
@@ -238,13 +247,6 @@ function get_data(json ){
     }
     return data;
 }
-
-
-
-
-
-
-
 
 </script>
 

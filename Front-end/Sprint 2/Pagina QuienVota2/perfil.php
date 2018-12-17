@@ -55,6 +55,7 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link"  href="index.php">Inicio</a></li>
             <li class="nav-item"><a class="nav-link"  href="#">Diputados</a></li>
+            <li class="nav-item"><a class="nav-link"  href="Acercade.html">Acerca de</a></li>
             <li class="nav-item"><a class="nav-link"  href="#">Contacto</a></li>
           </ul>
         </div>
@@ -74,8 +75,11 @@
   require 'vendor/autoload.php';
   $conn = new MongoDB\Client("mongodb://localhost:27017");
   $col = $conn->quevotan->parlamentario;
+  
   #Busca todos los datos del id del diputado
   $data = $col -> find(['_id'=>$id])->toArray();
+
+
   echo "<img class='img-thumbnail' style='width:100%;'src='data:image/png;base64,",$data[0]['imagen'],"'/>";
   echo "</div>";
   echo "<div class='col-5'";
@@ -89,14 +93,34 @@
     <div class="col-10">
       <br>
       <label for="sel2">Votaciones Hechas : </label>
-      <select multiple class="form-control" id="sel2">
+     <select multiple class="form-control" id="sel2">
 <?php
     $col = $conn->quevotan->votacion;
+    $col2 = $conn->quevotan->proyecto;
+
     $data = $col->find(['Id_Diputado'=>$id])->toArray();
+    $proy = $col2->find()->toArray();
     
-    foreach ($data as $dato) {
-      echo "<option>".$dato['Id']."<option> \n";
+    foreach ($proy as $p) {
+      foreach ($data as $d) {
+          if($d['Id'] == $p['id_votacion'] ){
+            switch ($d['voto']) {
+                case '1':
+                   echo "<option>Id Votacion:".$p['_id']."  Voto: SI Materia: ".$p['materia']."</option>";
+                case '4':
+                   echo "<option>Id Votacion:".$p['_id']."  Voto: NO </option>";
+                default:
+                   echo "<option>Id Votacion:".$p['_id']."  Voto: ABSTENCION </option>";
+            }
+
+           
+          }
+      }
     }
+
+
+
+
 ?>
       </select>
     </div>
