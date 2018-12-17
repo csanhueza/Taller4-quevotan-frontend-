@@ -148,11 +148,19 @@ th, td {
         <div class="card" style="width: 10rem;position:fixed;">
           <img class="card-img-top" src="imagenes/image1.jpg" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">Nombre:</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title"></h5>
+                <p class="card-text"></p>
             </div>
         </div>
-
+<?php
+    $par  = $col2-> find()->toArray();
+    $dat = array();
+    echo "<script> var d=[];</script>";
+    foreach ($par as $d) {
+      echo "<script>d.push([".$d['_id'].',"'.$d['apellido_paterno'].'","'.$d['imagen'].'","'.$d['partido'].'","'.$d['region'].'","'.$d['nombre'].'","'.$d['distrito'].'"]);</script>';
+    }
+    
+?>
                             <!-- /#page-content-wrapper -->
                         
                         <!-- /#wrapper -->
@@ -177,6 +185,16 @@ th, td {
                             $("td a").mouseenter(function(ev) {
                                 var nombres = $(this).html();
                                 var sep  = nombres.split(" ");
+                                for (var i =0; i <  d.length; i++) {
+                                    if(d[i][1]== sep[1] && d[i][5]==sep[0])
+                                    {
+                                      $(".card-title").html("<p>"+nombres+"</p>");
+                                      msg = "<p> Partido: "+d[i][3]+"</p>";
+                                      msg+="<p> Sector: "+d[i][6]+"</p>"; 
+                                      $(".card-text").html(msg);
+                                      $(".card-img-top").replaceWith('<img class="card-img-top"src="data:image/png;base64,'+d[i][2]+'"alt="Card image cap">');
+                                    }
+                                }
                                 $(".card").css("left", ev.clientX + 5);
                                 $(".card").css("top", ev.clientY + 5);
                                 $(".card").show();
