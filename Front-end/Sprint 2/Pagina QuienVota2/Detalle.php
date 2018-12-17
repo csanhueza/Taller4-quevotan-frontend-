@@ -73,6 +73,44 @@
                 <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Menu</a>
                 <section>
                     <div id="chart"></div>
+                    <div class="col-10">
+                        <H1> Diputados Que Votaron</h1>
+                        <hr>
+<?php
+ $id = $_GET['id'];
+  error_reporting(0);
+  require 'vendor/autoload.php';
+  
+  $conn = new MongoDB\Client("mongodb://localhost:27017");
+  $col = $conn->quevotan->votacion;
+  $col2 = $conn->quevotan->parlamentario;
+
+  $data = $col -> find(['Id'=> $id])->toArray();
+  $i = 1;
+  $aDiputados = array();
+  foreach ($data as $d) {
+     $par  = $col2-> find(['_id'=>$d['Id_Diputado']])->toArray();
+     $nombre = $par[0]['nombre']." ".$par[0]['apellido_paterno'];
+     array_push($aDiputados,$nombre); #echo     
+  }
+  $aDiputados = array_unique($aDiputados);
+  $y =0;
+  echo "<table>";
+  while($y < count($aDiputados)){
+    if( $i == 1)echo "<tr>";
+    if($i <=4)
+     {
+        echo "<td>".$aDiputados[$y]."</td>";
+        $i +=1;   
+     }else {
+        echo "</tr>";
+        $i =1;
+     }
+    $y +=1;    
+  }
+  echo "</table>";
+?>
+                    </div>
                 </section>
             </div>
         </div>
