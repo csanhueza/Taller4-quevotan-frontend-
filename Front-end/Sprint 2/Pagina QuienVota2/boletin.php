@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="img/Chile.ico" />
+   <link rel="shortcut icon" href="imagenes/Chile.ico" /> 
     <title>menu lateral</title>
 
     <!-- Bootstrap core CSS -->
@@ -75,12 +73,7 @@
                         <div id="chart" class="col-10"></div>
                         <div class="col-10">
                          <p> Votos </p>
-
-
                         </div>
-
-
-
                     </div>
                 </section>
             </div>

@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="img/Chile.ico" />
-    <title>Grafico</title>
+    <link rel="shortcut icon" href="imagenes/Chile.ico" /> 
+    <title>Detalle</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -98,8 +98,8 @@ th, td {
     </div>
 </header>
 <section>
-                    
-                <h1>Boletin</h1>
+  <div class="container">  
+                <h1 align="center" class="display-1">Boletin</h1>
                 <hr>
                 <p>Graficos</p>
                 <br>
@@ -343,7 +343,7 @@ th, td {
                         return data;
                     }
             </script>
-    
+    </div>   
     </section>
     <!-- Footer -->
     <footer class="page-footer font-small blue pt-4">

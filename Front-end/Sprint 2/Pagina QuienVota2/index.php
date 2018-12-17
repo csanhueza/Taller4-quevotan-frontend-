@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Que Votan</title>
-    <link rel="shortcut icon" href="img/Chile.ico" /> 
+    <link rel="shortcut icon" href="imagenes/Chile.ico" /> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Style -->
     <style media="screen">
@@ -104,7 +104,26 @@
                   </div>
                   <!--end of col-->
                   <div class="col-auto">
-                    <input type="submit" id="btn"class="btn btn-lg btn-success" value="Buscar"></input>
+         <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+               <li>
+                   <label class="dropdown-menu-item checkbox" style="margin-left: 10%;">
+                       <input id='dipu' type="checkbox" />
+                       <span class="glyphicon glyphicon-unchecked"></span>
+                        Diputados
+                   </label>
+               </li>
+               <li>
+                   <label class="dropdown-menu-item checkbox" style="margin-left: 10%;">
+                       <input id='proy'type="checkbox" />
+                       <span class="glyphicon glyphicon-unchecked"></span>
+                       Proyecto
+                   </label>
+               </li>
+            </ul>
+         </div>
+                    
                   </div>
                   <!--end of col-->
           </div>
@@ -190,18 +209,39 @@
   </body>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript">
+  var dipu = false;
+  var proy = false;
+  var d_i=0; var p_i = 0;
   $(document).ready(function(){
     $('input[type="submit"]').attr('disabled','disabled');
-    $("#datos").keyup(function(){ 
-      var value = $(this).val().toLowerCase();
-      $("#lista .card").filter(function(){
-        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-      });   
-      if($(this).val() != ''){
-         $('input[type="submit"]').removeAttr('disabled');
-      }
+
+    $("#proy").on('click',function(){
+      if($(this).is(':checked')){
+        proy = true;
+        if(dipu) alert("Solo una casilla Selecciona");
+        else buscar();
+      }else proy =false
     });
+    $("#dipu").on('click',function(){
+      if($(this).is(':checked')){
+            dipu=true;
+            if(proy)alert("Solo una casilla Selecciona");
+            else alert("diputado");
+      }else dipu = false;
+      });
   });
+
+  function buscar(){
+      $("#datos").keyup(function(){ 
+        var value = $(this).val().toLowerCase();
+        $("#lista .card").filter(function(){
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });   
+        if($(this).val() != ''){
+           $('input[type="submit"]').removeAttr('disabled');
+        }
+      });
+  }
 </script>
 
 </html>
