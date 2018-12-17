@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -29,7 +28,17 @@
     font-family: sans-serif;
     font-size: 11px;
 }
-
+table {
+   width: 100%;
+   position: absolute;
+   /*border: 1px solid #000;*/
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+  /* border: 1px solid #000;*/
+}
 </style>
 <body>
     <!-- GOOGLE FONTS -->
@@ -95,9 +104,9 @@
                 <p>Graficos</p>
                 <br>
                     <div id="chart"></div>
-                    <div class="col-10">
+                    <div class="col-10 ">
                         <H1> Diputados Que Votaron</H1>
-                        <hr>
+                        <hr>   
                     <?php
                      $id = $_GET['id'];
                       error_reporting(0);
@@ -110,19 +119,22 @@
                       $data = $col -> find(['Id'=> $id])->toArray();
                       $i = 1;
                       $aDiputados = array();
+                      $id_dipu = array();
                       foreach ($data as $d) {
                          $par  = $col2-> find(['_id'=>$d['Id_Diputado']])->toArray();
                          $nombre = $par[0]['nombre']." ".$par[0]['apellido_paterno'];
-                         array_push($aDiputados,$nombre); #echo     
+                         array_push($aDiputados,$nombre); #echo
+                         array_push($id_dipu,$par[0]['_id']);     
                       }
                       $aDiputados = array_unique($aDiputados);
+                      $id_dipu    = array_unique($id_dipu);
                       $y =0;
-                      echo "<table>";
+                      echo "<table style='position:relative;'>";
                       while($y < count($aDiputados)){
                         if( $i == 1)echo "<tr>";
                         if($i <=4)
                          {
-                            echo "<td>".$aDiputados[$y]."</td>";
+                            echo "<td><a href='perfil.php?id=".$id_dipu[$y]."'>".$aDiputados[$y]."</a></td>";
                             $i +=1;   
                          }else {
                             echo "</tr>";
@@ -133,6 +145,14 @@
                       echo "</table>";
                     ?>
                 </div>
+        <div class="card" style="width: 10rem;position:fixed;">
+          <img class="card-img-top" src="imagenes/image1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Nombre:</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+
                             <!-- /#page-content-wrapper -->
                         
                         <!-- /#wrapper -->
@@ -145,10 +165,6 @@
                         <script src="http://d3js.org/d3.v3.min.js"></script>
                         <script src="js/fisheye.js" type="text/javascript"></script>
                     <script>
-                        $("#menu-toggle").click(function(e) {
-                            e.preventDefault();
-                            $("#wrapper").toggleClass("toggled");
-                        });
                         d3.json("json/data.json",function(error,json){
                         if(error)
                         {   
@@ -156,6 +172,21 @@
                         }
                         renderData(json);
                     });
+                    $(document).ready(function() {
+                            $(".card").hide();
+                            $("td a").mouseenter(function(ev) {
+                                var nombres = $(this).html();
+                                var sep  = nombres.split(" ");
+                                $(".card").css("left", ev.clientX + 5);
+                                $(".card").css("top", ev.clientY + 5);
+                                $(".card").show();
+                            });
+                            $("td a").mouseout(function(){
+                                $(".card").hide();
+                            });
+
+                    });
+
                     function renderData(json){  
 
                         var data = get_data(json); 
@@ -176,7 +207,6 @@
                         // Ojo de Pez
                         var fisheye = d3.fisheye.circular()
                             .radius(120);
-
 
                         // Color
                         var color = d3.scale.category20();
@@ -294,10 +324,6 @@
                         }
                         return data;
                     }
-
-
-
-        
             </script>
     
     </section>

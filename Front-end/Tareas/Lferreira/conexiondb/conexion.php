@@ -2,10 +2,12 @@
 	require 'vendor/autoload.php';
 	
 	$conn = new MongoDB\Client("mongodb://localhost:27017");
-	$col = $conn->quevotan->parlamentario;
-	$data = $col -> find()->toArray();
-	
-	print_r($data[0]['nombre']);
+    $col = $conn->quevotan->Legislatura;
+    $data = $col->find()->toArray();
+   
+   	$data2 = $data[0]['50']['sesiones'];
+
+   	print_r($data2[0]);
 	// Enviar datos a Js 
 	#$resultado = $_POST['array'];
 
