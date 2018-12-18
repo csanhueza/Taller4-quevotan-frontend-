@@ -3,21 +3,20 @@
 	
 	$conn = new MongoDB\Client("mongodb://localhost:27017");
     $col = $conn->quevotan->Legislatura;
+    $col2 = $conn->quevotan->parlamentario;
     $data = $col->find()->toArray();
    
-   	$data2 = $data[0]['50']['sesiones'];
+   	$data2 = $col2->find()->toArray();
 
-   	print_r($data2[0]);
-	// Enviar datos a Js 
-	#$resultado = $_POST['array'];
+   	foreach ($data2 as $dato) {
+   		    echo "<a style='text-decoration:none;color:black;visibility: hidden;' href='perfil.php?id=".$dato['_id']."'><div class='card'>";
+    echo "<div class='card-header bg-success text-white'>id : ".$dato['_id'].", Nombre: ". $dato['nombre']." ".$dato['apellido_paterno']."</div>";
+    echo "</div></a>";
+    echo "<br>";
+   	}
 
-	#echo ("resultado :".$resultado);
-	#$aDatos = $col->find()->toArray();
-	#print_r($aDatos[0]);
-	#Variables 
 
-	#foreach ($data as $dato) {
-	#	echo "<img src='data:image/png;base64,",$dato['imagen'],"' onclick=retorna(",$dato['_id'],") />";
+
 	#}
 	
 ?>

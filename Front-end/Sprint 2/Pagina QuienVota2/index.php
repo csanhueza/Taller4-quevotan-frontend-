@@ -138,20 +138,31 @@
   
   $conn = new MongoDB\Client("mongodb://localhost:27017");
   $col = $conn->quevotan->proyecto;
+  $col2 = $conn->quevotan->parlamentario;
   $data = $col -> find()->toArray();
   
   $i = 0;
   while( $i < count($data))
   {
-    echo "<a style='text-decoration:none;color:black;' href='Detalle.php?id=".$data[$i]['id_votacion']."'><div class='card'>";
+    echo "<a id='proyecto' style='text-decoration:none;color:black;' href='Detalle.php?id=".$data[$i]['id_votacion']."'><div class='card'>";
     echo "<div class='card-header bg-success text-white'>ID : ".$data[$i]['id_votacion'].", Materia: ". $data[$i]['materia']."</div>";
     echo "<div class='card-body'>Detalle : ".$data[$i]['nombre']."</div>"; 
     echo "</div></a>";
     echo "<br>";
     $i+=1;
-  }     
+  }   
+  echo "</div>";
+  echo "<div id='lista2'>";
+    $data2 = $col2->find()->toArray();
+
+    foreach ($data2 as $dato) {
+          echo "<a id='diputados' style='text-decoration:none;color:black;' href='perfil.php?id=".$dato['_id']."'><div class='card'>";
+    echo "<div class='card-header bg-success text-white'>id : ".$dato['_id'].", Nombre: ". $dato['nombre']." ".$dato['apellido_paterno']."</div>";
+    echo "</div></a>";
+    echo "<br>";
+    }
+  echo "</div>";
 ?>
-    </div>
     </div>
     
     </section>
@@ -226,17 +237,32 @@
       if($(this).is(':checked')){
             dipu=true;
             if(proy)alert("Solo una casilla Selecciona");
-            else alert("diputado");
+            else buscar2();
       }else dipu = false;
       });
   });
 
   function buscar(){
+      $("#lista2").hide();
       $("#datos").keyup(function(){ 
         var value = $(this).val().toLowerCase();
+        $("#lista").show();
         $("#lista .card").filter(function(){
           $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
         });   
+        if($(this).val() != ''){
+           $('input[type="submit"]').removeAttr('disabled');
+        }
+      });
+  }
+  function buscar2(){
+      $("#lista").hide();
+      $("#datos").keyup(function(){ 
+        var value = $(this).val().toLowerCase();  
+        $("#lista2").show();
+        $("#lista2 .card").filter(function(){
+          $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        })   
         if($(this).val() != ''){
            $('input[type="submit"]').removeAttr('disabled');
         }
