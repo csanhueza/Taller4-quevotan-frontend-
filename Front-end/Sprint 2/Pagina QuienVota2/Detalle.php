@@ -115,8 +115,10 @@ th, td {
                       $conn = new MongoDB\Client("mongodb://localhost:27017");
                       $col = $conn->quevotan->votacion;
                       $col2 = $conn->quevotan->parlamentario;
+                      $col3 = $conn->quevotan->proyecto;
 
                       $data = $col -> find(['Id'=> $id])->toArray();
+                      $data2=$col->find(['id_votacion'=>$id])->toArray();
                       $i = 1;
                       $aDiputados = array();
                       $id_dipu = array();
@@ -173,13 +175,7 @@ th, td {
                         <script src="http://d3js.org/d3.v3.min.js"></script>
                         <script src="js/fisheye.js" type="text/javascript"></script>
                     <script>
-                        d3.json("json/data.json",function(error,json){
-                        if(error)
-                        {   
-                            return console.warn(error);
-                        }
-                        renderData(json);
-                    });
+
                     $(document).ready(function() {
                             $(".card").hide();
                             $("td a").mouseenter(function(ev) {
@@ -205,143 +201,152 @@ th, td {
 
                     });
 
-                    function renderData(json){  
+  d3.json("json/Coord.json",function(error,json){
+  if(error)
+  { 
+    return console.warn(error);
+  }
+  renderData(json,<? $data2['_id']?>);
+});
+function renderData(json,id){ 
 
-                        var data = get_data(json); 
-                        var padding = 30, w = 800 , h = 600;
+  var data ;
+  var padding = 30, w = 800 , h = 600;
+  for(var i=0;i< json.Proyectos.length;i++){
+    var v_id = json.Proyectos[i].id_proyecto;
+    if(v_id === id){
+      data = json.Proyectos[i];
+    }
+  }
+  data = data.votaciones;
+  //Crear Svg
+    //Crear Svg
+  var svg = d3.select("#chart").append("svg")
+      .attr("width", w )
+      .attr("height", w )
+      .append("g")
+  
+  var max_x = d3.max(data,function(d,i) {return d.x;});
+  var min_x = d3.min(data,function(d,i) {return d.x;});
 
-                        //Crear Svg
-                        var svg = d3.select("#chart").append("svg")
-                            .attr("width", w )
-                            .attr("height", w )
-                            .append("g")
+  var max_y = d3.max(data,function(d,i) {return d.y;});
+  var min_y = d3.min(data,function(d,i) {return d.y;});
 
-                        var max_x = d3.max(data,function(d,i) {return d.x;});
-                        var min_x = d3.min(data,function(d,i) {return d.x;});
-
-                        var max_y = d3.max(data,function(d,i) {return d.y;});
-                        var min_y = d3.min(data,function(d,i) {return d.y;});
-
-                        // Ojo de Pez
-                        var fisheye = d3.fisheye.circular()
-                            .radius(120);
-
-                        // Color
-                        var color = d3.scale.category20();
-
-                        //Escalas para eje x,y
-                        var x = d3.scale.linear()
-                            .domain([-1,1])
-                            .range([padding,w-padding]);
-                        var y = d3.scale.linear()
-                            .domain([-1,1])
-                            .range([h-padding,padding]);
-                        // Ejes
-                        var xAxis = d3.svg.axis()
-                            .scale(x)
-                            .orient("bottom");
-                        var yAxis = d3.svg.axis()
-                            .scale(y)
-                            .orient("left")
-                            .ticks(5);
-
-                        svg.append("g")
-                            .attr("class", "axis")
-                            .attr("transform", "translate(0,"+(320-padding)+ ")")
-                            .call(xAxis);
-                        svg.append("g")
-                            .attr("class", "axis")
-                            .attr("transform", "translate(" + 400 + ",0)")
-                            .call(yAxis);
-                        // add Circulos
-
-                        var circulos = svg.selectAll(".Circulos")
-                           .data(data)
-                           .enter()
-                           .append("circle")
-                           .attr("class","circulos")
-                           .attr("cx",function(d){return x(d.x);})
-                           .attr("cy",function(d){return y(d.y);})
-                           .attr("r",function(d){return 7})
-                           .attr("fill",function(d){return color(d.Partido);})
-                           .on("click", function(d){
-                                seleccion
-                                    .attr('cx',x(d.x))
-                                    .attr('cy',y(d.y))
-                                    .attr('r',10)
-                                    .style('stroke',color(d.Partido))
-                                    .transition()
-                                    .duration(500)
-                                    .attr('r',10)
-                                    .style('opacity',1);
-                                seleccionTexto
-                                    .attr('x',x(d.x)+20)
-                                    .attr('y',y(d.y)+10)
-                                    .attr('fill','black')
-                                    .style('opacity',1)
-                                    .text(d.Nombre);
-                            });
-                        //Círculo de selección
-                        var seleccion = svg.append('circle')
-                            .attr("class", "seleccion")
-                            .attr('cx',0)
-                            .attr('cy',0)
-                            .attr('r',30)
-                            .style('fill','none')
-                            .style('opacity',0)
-                            .style('stroke','black')
-                            .style('stroke-width',2);
-
-                        //Text de selección
-                        var seleccionTexto = svg.append('text')
-                            .attr("class", "seleccionTexto")
-                            .attr('x',0)
-                            .attr('y',0)
-                            .attr('text-anchor',"middle");
-                        // Leyenda 
-
-                        svg2 = d3.select("#ley").append("svg")
-                            .attr("width", w )
-                            .attr("height", w )
-                            .append("g")
+  
+  console.log(data[0].x);
+  // Ojo de Pez
+  var fisheye = d3.fisheye.circular()
+    .radius(120);
 
 
-                        var legend = svg.selectAll(".legend")
-                            .data(color.domain())
-                            .enter().append("g")
-                            .attr("class","legend")
-                            .attr("transform",function(d,i){ return "translate(680,"+12*i+")";});
-                        legend.append("rect")
-                            .attr("x",100)
-                            .attr("width",80)
-                            .attr("height",10)
-                            .style("fill",color)
-                            .on("click",function(d){
-                                var a = color(d)
-                                circulos
-                                 .attr("opacity",function(d){
-                                    if(a != color(d.Partido)){
-                                        return 0;
-                                    }
-                                })
-                            })
-                            .on("mouseover",function(d){
-                                circulos
-                                .attr("opacity",100);
+  // Color
+  var color = d3.scale.category20();
 
-                            });
-                        legend.append("text")
-                            .attr("x",50)
-                            .attr("y",10)
-                            .text(function(d){return d;});
+  //Escalas para eje x,y
+  var x = d3.scale.linear()
+    .domain([-1,1])
+    .range([padding,w-padding]);
+  var y = d3.scale.linear()
+    .domain([-1,1])
+    .range([h-padding,padding]);
+  // Ejes
+  var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom");
+  var yAxis = d3.svg.axis()
+        .scale(y)
+        .orient("left")
+        .ticks(5);
+
+  svg.append("g")
+      .attr("class", "axis")
+      .attr("transform", "translate(0,"+(320-padding)+ ")")
+      .call(xAxis);
+  svg.append("g")
+      .attr("class", "axis")
+      .attr("transform", "translate(" + 400 + ",0)")
+      .call(yAxis);
+    // add Circulos
+
+    var circulos = svg.selectAll(".Circulos")
+       .data(data)
+       .enter()
+       .append("circle")
+       .attr("class","circulos")
+       .attr("cx",function(d){
+          return x(d.x);
+        })
+       .attr("cy",function(d){return y(d.y);})
+       .attr("r",function(d){return 7})
+       .attr("fill",function(d){
+      return color(d.Partido);
+    })
+     .on("mouseenter", function(d){
+        seleccion
+          .attr('cx',x(d.x))
+          .attr('cy',y(d.y))
+          .attr('r',10)
+          .style('stroke',color(d.Partido))
+          .transition()
+          .duration(500)
+          .attr('r',10)
+          .style('opacity',1);
+        seleccionTexto
+          .attr('x',x(d.x)+20)
+          .attr('y',y(d.y)+10)
+          .attr('fill','black')
+          .style('opacity',1)
+          .text(d.iD_Diputado);
+      });
+  //Círculo de selección
+  var seleccion = svg.append('circle')
+    .attr("class", "seleccion")
+    .attr('cx',0)
+    .attr('cy',0)
+    .attr('r',10)
+    .style('fill','none')
+    .style('opacity',0)
+    .style('stroke','black')
+    .style('stroke-width',2);
+
+  //Text de selección
+  var seleccionTexto = svg.append('text')
+    .attr("class", "seleccionTexto")
+    .attr('x',0)
+    .attr('y',0)
+    .attr('text-anchor',"middle");
+    // Leyenda 
+    var legend = svg.selectAll(".legend")
+      .data(color.domain())
+      .enter().append("g")
+      .attr("class","legend")
+      .attr("transform",function(d,i){ return "translate(680,"+12*i+")";});
+    legend.append("rect")
+      .attr("x",0)
+      .attr("width",20)
+      .attr("height",20)
+      .style("fill",color)
+      .on("click",function(d){
+             var a = color(d)
+             circulos
+             .attr("opacity",function(d){
+             if(a != color(d.Partido)){
+                    return 0;
                     }
-                    function get_data(json ){
-                        var data = new Array(json.Legislatura.length);
-                        for(var i=0 ; i < json.Legislatura.length;i++){
-                            data[i]=json.Legislatura[i]
-                        }
-                        return data;
-                    }
+                 })
+              })
+          .on("mouseover",function(d){
+              circulos
+              .attr("opacity",100);
+
+          });
+    legend.append("text")
+      .attr("x",22)
+      .attr("y",15)
+      .text(function(d){return d;})
+
+
+}
             </script>
     </div>   
     </section>
