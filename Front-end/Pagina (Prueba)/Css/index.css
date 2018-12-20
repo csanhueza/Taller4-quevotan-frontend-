@@ -1,0 +1,61 @@
+p,h1,h2,h3,h4,h5,h6{ margin: 0; }
+body{
+		margin: 0;
+		width: 100%;
+		height: auto;
+        /*background-color: #808B96;*/
+}
+/* Clases */
+nav{
+		margin: 0;
+        height: 8%;
+		margin-bottom: 0px;
+        background-color: #FFFFFF;
+	}
+header{
+		background-color: #000000;
+		height: 30%;
+		width: 100%;
+		margin-right: 0px;
+		margin-left: 0px;
+        
+	  }
+
+section{
+			margin: auto;
+			height: 50%;
+			width : 75%;
+			background-color: #FFFFFF;
+            
+		}
+#wsec{
+    
+        margin: auto;
+        width: 85%;
+}
+blockquote {
+          padding: 3px 10px;
+          border: black 3px solid;
+          border-top-left-radius: 20px;
+          border-bottom-right-radius: 20px;
+        }
+footer{
+        margin-top: 5px;
+		background-color:#000000;
+		height: 12%;
+		width: 100%;
+	}
+
+#texto{
+     text-align: justify;
+}
+table {
+        border-collapse: collapse;
+        border: red 5px solid;
+}
+tr {
+  border: green 5px solid;
+}
+td {
+  border: orange 5px solid;
+}

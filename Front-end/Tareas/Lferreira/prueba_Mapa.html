@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Mapa</title>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+</head>
+<style type="text/css">
+	svg {
+		border: 1px solid black;
+	}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+        }
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+</style>
+<body>
+ <section>
+ </section>
+
+<script>
+d3.json("json/data.json",function(error,json){
+	if(error)
+	{	
+		return console.warn(error);
+	}
+	renderData(json);
+});
+// Funcion que crea Grafico
+function renderData(data){	
+	
+
+	var json = get_data(data);
+	var padding = 30,w = 800, h = 600;
+
+	// Escalas de Ejes
+    var xScale = d3.scale.linear()
+    	.domain([d3.min(json,function(d){ return d.x}),d3.max(json,function(d){ return d.x;})])
+    	.range([padding,w-padding]);
+    var yScale = d3.scale.linear()
+    	.domain([d3.min(json,function(d){ return d.y}),d3.max(json,function(d){ return d.y;})])
+    	.range([h-padding,padding]);
+    // Añadir Ejes
+    var xAxis = d3.svg.axis()
+    	.scale(xScale)
+    	.orient("bottom");
+
+    var yAxis = d3.svg.axis()
+    	.scale(yScale)
+    	.orient("left")
+    	.ticks(10);
+    //---------------------------------
+    var color = d3.scale.category20();
+    //salert(data.Legislatura[0]);
+    //Crea Svg
+    var svg = d3.select("section")
+    		.append("svg")
+    		.attr("width",w)
+    		.attr("height",h);
+    svg.selectAll("circle")
+       .data(json)
+       .enter()
+       .append("circle")
+       .attr("cx",function(d){return xScale(d.x);})
+       .attr("cy",function(d){return xScale(d.y);})
+       .attr("fill",function(d){return color(d.Partido);})
+       .on("mouseenter", function(d,i){
+       		seleccionTexto
+            .attr('x',xScale(d.x))
+            .attr('y',yScale(d.y))
+            .style('opacity',1)
+            .text(d.Nombre);
+		})
+	   .on("mouseout", function(d){
+      		seleccionTexto
+      			.attr('r',0)
+      			.style('opacity',0);
+        })
+       .attr("r",5);
+
+
+    svg.append("g")
+       .attr("class","axis")
+       .attr("transform","translate(0,"+(h-padding)+")")
+       .call(xAxis);
+    svg.append("g")
+       .attr("class","axis")
+       .attr("transform","translate("+(padding)+",0)")
+       .call(yAxis);
+    var seleccionTexto = svg.append('text')
+	   .attr("class", "seleccionTexto")
+	   .attr('x',0)
+	   .attr('y',0)
+	   .attr('text-anchor',"middle")
+	   .text('ejemplo de texto');
+}
+function get_data(json ){
+	var data = new Array(json.Legislatura.length);
+	for(var i=0 ; i < json.Legislatura.length;i++){
+		data[i]=json.Legislatura[i]
+	}
+	return data;
+}
+</script>
+</body>
+</html>

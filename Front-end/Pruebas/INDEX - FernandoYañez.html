@@ -1,0 +1,34 @@
+<head>
+  <!-- Plotly.js -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <!-- Numeric JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js"></script>
+
+
+  <title>Grafico ejemplo - Fernando Yañez</title>
+  <meta charset="utf-8">
+</head>
+
+<body>
+  
+  <div id="myDiv"><!-- TODO EL CODIGO DE ABAJO QUE ESTÉ CREANDO LOS GRAFICOS (DATOS, ETC.) SE MOSTRARÁN EN ESTE DIV. --></div>
+  <script>
+    var data = [{
+  values: [2, 30, 55],                //Solo se ingresa el valor requerido, y el grafico automaticamente generará un porcentaje y lo mostrará en el grafico de torta
+  labels: ['Abstención', 'No', 'Si'], //Definí las etiquetas
+  type: 'pie'                         //Se define el tipo de grafico
+}];
+
+var layout = {
+  title: 'Diputados votan ¿Pueden los mayores desde los 65 años cumplir su condena en libertad con vigilancia <br> electrónica personal dentro de la provincia donde se encuentra su domicilio?',
+  height: 600,                        //Ancho y largo del grafico en pantalla
+  width: 950,
+};
+
+Plotly.newPlot('myDiv', data, layout); //Se ubica lo anteriormente creado (variable "Layout") en myDiv, que se encuentra mas arriba.
+  </script>
+</body>
+
+
+
+<!-- Quise trabajar con este grafico que parece simple, pero investigando en la pagina "https://plot.ly/javascript/", todos los codigos, sean lo complejos que sean, se trabajaban de forma similar, todos se incluían dentro de un Div como en este caso. al entender este codigo podría poder empezar a trabajar con codigos mas extensos y complejos ya que solo cambian los datos. -->

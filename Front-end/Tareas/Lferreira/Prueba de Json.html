@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prueba de Json</title>
+	<script type="text/javascript" src="js/jquery.js"></script> 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+	<button>Obtener json </button>
+	<div id="mostrar" class="container col-8"></div>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("button").click(function(){
+				$.getJSON("json/archivo.json",function(data){
+					var mostrar = document.getElementById('mostrar');
+					var div_header;var div_conten;var a;
+					for(var i =0 ; i < data.arrayColores.length;i++){
+						div_header = document.createElement("div");
+						div_conten = document.createElement("div");
+						a   = document.createElement("a");
+						//Atributos de Los Elementos
+						div_header.setAttribute("class","card-header bg-primary text-white");
+						div_conten.setAttribute("class","card-body");
+						div_conten.innerHTML = "Contenido";
+
+						a.setAttribute("class","lead text-white");
+						a.setAttribute("href","#");
+						a.innerHTML = data.arrayColores[i].nombreColor;
+
+						// Agrego Elementos en pagina 
+						div_header.appendChild(a);
+						mostrar.appendChild(div_header);
+						mostrar.appendChild(div_conten);
+
+					}
+				});
+			});
+		});
+	</script>
+	<div></div>
+</body>
+</html>

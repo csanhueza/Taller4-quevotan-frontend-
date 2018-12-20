@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prueba de Leaflet</title>
+  <!-- Importacion Css --->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/font.css">
+  <!-- importacion Js -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+</head>
+<body>
+<section class="cols-sm-auto">
+		<div id="map" class="col-md-8"></div>
+		<script type="text/javascript">
+		var coord = [-38.702581, -72.548314];
+		var mymap = L.map('map').setView(coord, 13);
+		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+		}).addTo(mymap);
+		L.marker(coord).addTo(mymap).bindPopup('Universidad Catolica ').openPopup();
+		</script>
+</section>
+
+</body>
+</html>!
